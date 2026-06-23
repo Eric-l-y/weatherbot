@@ -4,12 +4,12 @@
 weatherbet.py — Weather Trading Bot for Polymarket
 =====================================================
 Tracks weather forecasts from 3 sources (ECMWF, HRRR, METAR),
-compares with Polymarket markets, paper trades using Kelly criterion.
+compares with Polymarket markets, trades using Kelly criterion.
 
 Usage:
-    python weatherbet.py          # main loop
-    python weatherbet.py report   # full report
-    python weatherbet.py status   # balance and open positions
+    python weatherbet.py [run|status|report] [--real]
+
+    --real       启用实盘交易（默认 paper 模拟模式）
 """
 
 import re
@@ -17,9 +17,13 @@ import sys
 import json
 import math
 import time
+import smtplib
+import ssl
 import requests
+import argparse
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from email.mime.text import MIMEText
 
 # =============================================================================
 # CONFIG
@@ -41,6 +45,20 @@ SCAN_INTERVAL    = _cfg.get("scan_interval", 3600)   # every hour
 CALIBRATION_MIN  = _cfg.get("calibration_min", 30)
 VC_KEY           = _cfg.get("vc_key", "")
 
+SMTP_HOST        = _cfg.get("smtp_host", "")
+SMTP_PORT        = _cfg.get("smtp_port", 587)
+SMTP_USER        = _cfg.get("smtp_user", "")
+SMTP_PASS        = _cfg.get("smtp_pass", "")
+SMTP_TLS         = _cfg.get("smtp_tls", True)
+NOTIFY_EMAIL     = _cfg.get("notify_email", "")
+
+# 实盘交易配置
+TRADING_MODE      = _cfg.get("trading_mode", "paper")   # "paper" | "real"
+POLY_PRIVATE_KEY  = _cfg.get("poly_private_key", "")
+POLY_FUNDER       = _cfg.get("poly_funder", "")
+POLY_CHAIN_ID     = _cfg.get("poly_chain_id", 137)
+POLY_SIGNATURE_TYPE = _cfg.get("poly_signature_type", 0)
+
 SIGMA_F = 2.0
 SIGMA_C = 1.2
 
@@ -50,6 +68,45 @@ STATE_FILE       = DATA_DIR / "state.json"
 MARKETS_DIR      = DATA_DIR / "markets"
 MARKETS_DIR.mkdir(exist_ok=True)
 CALIBRATION_FILE = DATA_DIR / "calibration.json"
+
+# ---------------------------------------------------------------------------
+# 交易客户端（延迟初始化，避免 paper 模式加载 py-clob-client）
+# ---------------------------------------------------------------------------
+_trader = None
+
+def get_trader():
+    """获取交易客户端实例（单例）"""
+    global _trader
+    if _trader is not None:
+        return _trader
+
+    is_real = (TRADING_MODE == "real" and bool(POLY_PRIVATE_KEY))
+
+    if is_real:
+        try:
+            from trader import PolymarketTrader
+            _trader = PolymarketTrader(
+                private_key=POLY_PRIVATE_KEY,
+                funder=POLY_FUNDER,
+                chain_id=POLY_CHAIN_ID,
+                signature_type=POLY_SIGNATURE_TYPE,
+                paper=False,
+            )
+            if not _trader.connect():
+                print("  [WARN] CLOB 连接失败，降级为 paper 模式")
+                from trader import PolymarketTrader
+                _trader = PolymarketTrader(paper=True)
+        except ImportError:
+            print("  [WARN] py-clob-client 未安装，降级为 paper 模式")
+            print("         实盘交易需要: pip install py-clob-client")
+            from trader import PolymarketTrader
+            _trader = PolymarketTrader(paper=True)
+    else:
+        from trader import PolymarketTrader
+        _trader = PolymarketTrader(paper=True)
+
+    return _trader
+
 
 LOCATIONS = {
     "nyc":          {"lat": 40.7772,  "lon":  -73.8726, "name": "New York City", "station": "KLGA", "unit": "F", "region": "us"},
@@ -340,6 +397,43 @@ def in_bucket(forecast, t_low, t_high):
         return round(float(forecast)) == round(t_low)
     return t_low <= float(forecast) <= t_high
 
+def _get_token_id(market_id, bucket_low, bucket_high):
+    """
+    从 gamma API 获取 market_id 对应的所有 outcome token_ids，
+    根据温度区间匹配并返回对应的 token_id 和金额信息。
+    """
+    import requests
+    try:
+        r = requests.get(
+            f"https://gamma-api.polymarket.com/markets/{market_id}",
+            timeout=(5, 8),
+        )
+        data = r.json()
+        outcomes = data.get("outcomes", [])
+        clob_ids = data.get("clobTokenIds", "")
+        token_ids = [t.strip() for t in clob_ids.split(",")] if clob_ids else []
+
+        for i, outcome in enumerate(outcomes):
+            name = str(outcome).strip()
+            try:
+                if "-" in name:
+                    parts = name.replace("°F", "").replace("°C", "").split("-")
+                    if len(parts) == 2:
+                        o_low = float(parts[0])
+                        o_high = float(parts[1])
+                        if o_low == bucket_low and o_high == bucket_high:
+                            return token_ids[i] if i < len(token_ids) else None
+                else:
+                    o_val = float(name.replace("°F", "").replace("°C", ""))
+                    if o_val == bucket_low == bucket_high:
+                        return token_ids[i] if i < len(token_ids) else None
+            except (ValueError, AttributeError):
+                continue
+        return None
+    except Exception as e:
+        print(f"  [WARN] _get_token_id 错误: {e}")
+        return None
+
 # =============================================================================
 # MARKET DATA STORAGE
 # Each market is stored in a separate file: data/markets/{city}_{date}.json
@@ -406,6 +500,33 @@ def load_state():
 
 def save_state(state):
     STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
+
+# ------------------------------------------------------------------------------
+# NOTIFICATION
+# ------------------------------------------------------------------------------
+
+def notify(subject, body):
+    """Send email notification via SMTP. Silently skips if not configured."""
+    if not all([SMTP_HOST, SMTP_USER, SMTP_PASS, NOTIFY_EMAIL]):
+        return
+    try:
+        msg = MIMEText(body, "plain", "utf-8")
+        msg["Subject"] = subject
+        msg["From"] = SMTP_USER
+        msg["To"] = NOTIFY_EMAIL
+
+        if SMTP_TLS:
+            context = ssl.create_default_context()
+            with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
+                server.starttls(context=context)
+                server.login(SMTP_USER, SMTP_PASS)
+                server.sendmail(SMTP_USER, NOTIFY_EMAIL, msg.as_string())
+        else:
+            with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as server:
+                server.login(SMTP_USER, SMTP_PASS)
+                server.sendmail(SMTP_USER, NOTIFY_EMAIL, msg.as_string())
+    except Exception as e:
+        print(f"  [WARN] Email notify failed: {e}")
 
 # =============================================================================
 # CORE LOGIC
@@ -560,6 +681,28 @@ def scan_and_update():
 
                     # Check stop
                     if current_price <= stop:
+                        trader = get_trader()
+                        token_id = pos.get("token_id") or _get_token_id(pos["market_id"],
+                                                                         pos["bucket_low"],
+                                                                         pos["bucket_high"])
+
+                        # 实盘：执行真实卖出
+                        if not trader.paper and token_id:
+                            sell_order_id = trader.sell(
+                                token_id=token_id,
+                                price=current_price,
+                                shares=pos["shares"],
+                                order_type="IOC",
+                            )
+                            if sell_order_id:
+                                pos["order_id"] = sell_order_id
+                                pos["order_status"] = "closed"
+                                print(f"  [SELL SENT] order={sell_order_id}")
+                            else:
+                                print(f"  [WARN] 卖出订单发送失败")
+                        elif not token_id:
+                            print(f"  [WARN] 无法确定 token_id，无法卖出")
+
                         pnl = round((current_price - entry) * pos["shares"], 2)
                         balance += pos["cost"] + pnl
                         pos["closed_at"]    = snap.get("ts")
@@ -569,7 +712,14 @@ def scan_and_update():
                         pos["status"]       = "closed"
                         closed += 1
                         reason = "STOP" if current_price < entry else "TRAILING BE"
-                        print(f"  [{reason}] {loc['name']} {date} | entry ${entry:.3f} exit ${current_price:.3f} | PnL: {'+'if pnl>=0 else ''}{pnl:.2f}")
+                        mode_tag = "[REAL]" if not trader.paper else "[PAPER]"
+                        print(f"  {mode_tag} [{reason}] {loc['name']} {date} | entry ${entry:.3f} exit ${current_price:.3f} | PnL: {'+'if pnl>=0 else ''}{pnl:.2f}")
+                        notify(
+                            f"[WeatherBet] {reason} {loc['name']}",
+                            f"City: {loc['name']}\nDate: {date}\nReason: {reason}\n"
+                            f"Entry: ${entry:.3f}\nExit: ${current_price:.3f}\nPnL: {'+'if pnl>=0 else ''}{pnl:.2f}\n"
+                            f"Mode: {'REAL' if not trader.paper else 'PAPER'}"
+                        )
 
             # --- CLOSE POSITION if forecast shifted 2+ degrees ---
             if mkt.get("position") and forecast_temp is not None:
@@ -588,7 +738,29 @@ def scan_and_update():
                             current_price = o["price"]
                             break
                     if current_price is not None:
+                        trader = get_trader()
                         pnl = round((current_price - pos["entry_price"]) * pos["shares"], 2)
+                        token_id = pos.get("token_id") or _get_token_id(pos["market_id"],
+                                                                         pos["bucket_low"],
+                                                                         pos["bucket_high"])
+
+                        # 实盘：执行真实卖出
+                        if not trader.paper and token_id:
+                            sell_order_id = trader.sell(
+                                token_id=token_id,
+                                price=current_price,
+                                shares=pos["shares"],
+                                order_type="IOC",
+                            )
+                            if sell_order_id:
+                                pos["order_id"] = sell_order_id
+                                pos["order_status"] = "closed"
+                                print(f"  [SELL SENT] order={sell_order_id}")
+                            else:
+                                print(f"  [WARN] 卖出订单发送失败")
+                        elif not token_id and not trader.paper:
+                            print(f"  [WARN] 无法确定 token_id，无法卖出")
+
                         balance += pos["cost"] + pnl
                         mkt["position"]["closed_at"]    = snap.get("ts")
                         mkt["position"]["close_reason"] = "forecast_changed"
@@ -596,7 +768,13 @@ def scan_and_update():
                         mkt["position"]["pnl"]          = pnl
                         mkt["position"]["status"]       = "closed"
                         closed += 1
-                        print(f"  [CLOSE] {loc['name']} {date} — forecast changed | PnL: {'+'if pnl>=0 else ''}{pnl:.2f}")
+                        mode_tag = "[REAL]" if not trader.paper else "[PAPER]"
+                        print(f"  {mode_tag} [CLOSE] {loc['name']} {date} — forecast changed | PnL: {'+'if pnl>=0 else ''}{pnl:.2f}")
+                        notify(
+                            f"[WeatherBet] CLOSE {loc['name']}",
+                            f"City: {loc['name']}\nDate: {date}\nReason: forecast changed\n"
+                            f"PnL: {'+'if pnl>=0 else ''}{pnl:.2f}"
+                        )
 
             # --- OPEN POSITION ---
             if not mkt.get("position") and forecast_temp is not None and hours >= MIN_HOURS:
@@ -675,14 +853,51 @@ def scan_and_update():
                         print(f"  [WARN] Could not fetch real ask for {best_signal['market_id']}: {e}")
 
                     if not skip_position and best_signal["entry_price"] < MAX_PRICE:
-                        balance -= best_signal["cost"]
-                        mkt["position"] = best_signal
-                        state["total_trades"] += 1
-                        new_pos += 1
-                        bucket_label = f"{best_signal['bucket_low']}-{best_signal['bucket_high']}{unit_sym}"
-                        print(f"  [BUY]  {loc['name']} {horizon} {date} | {bucket_label} | "
-                              f"${best_signal['entry_price']:.3f} | EV {best_signal['ev']:+.2f} | "
-                              f"${best_signal['cost']:.2f} ({best_signal['forecast_src'].upper()})")
+                        trader = get_trader()
+
+                        # 从 gamma API 获取 token_id
+                        token_id = _get_token_id(best_signal["market_id"],
+                                                  best_signal["bucket_low"],
+                                                  best_signal["bucket_high"])
+
+                        if token_id is None:
+                            print(f"  [WARN] 无法确定 token_id，跳过下单")
+                        else:
+                            best_signal["token_id"] = token_id
+
+                            # ===== 执行下单 =====
+                            order_id = trader.buy(
+                                token_id=token_id,
+                                price=best_signal["entry_price"],
+                                shares=best_signal["shares"],
+                                order_type="LIMIT",
+                            )
+
+                            if order_id:
+                                best_signal["order_id"] = order_id
+                                best_signal["order_status"] = "submitted"
+                                balance -= best_signal["cost"]
+                                mkt["position"] = best_signal
+                                state["total_trades"] += 1
+                                new_pos += 1
+
+                                mode_tag = "[REAL]" if not trader.paper else "[PAPER]"
+                                bucket_label = f"{best_signal['bucket_low']}-{best_signal['bucket_high']}{unit_sym}"
+                                print(f"  {mode_tag} BUY {loc['name']} {horizon} {date} | {bucket_label} | "
+                                      f"${best_signal['entry_price']:.3f} | EV {best_signal['ev']:+.2f} | "
+                                      f"${best_signal['cost']:.2f} ({best_signal['forecast_src'].upper()}) | "
+                                      f"order={order_id}")
+
+                                notify(
+                                    f"[WeatherBet] BUY {loc['name']} {bucket_label}",
+                                    f"City: {loc['name']}\nDate: {date}\nBucket: {bucket_label}\n"
+                                    f"Entry: ${best_signal['entry_price']:.3f}\nEV: {best_signal['ev']:+.2f}\n"
+                                    f"Cost: ${best_signal['cost']:.2f}\nSource: {best_signal['forecast_src'].upper()}\n"
+                                    f"Market: https://polymarket.com/event/{best_signal.get('market_id','')}\n"
+                                    f"Mode: {'REAL' if not trader.paper else 'PAPER'}"
+                                )
+                            else:
+                                print(f"  [ERROR] 下单失败，跳过")
 
             # Market closed by time
             if hours < 0.5 and mkt["status"] == "open":
@@ -734,6 +949,11 @@ def scan_and_update():
 
         result = "WIN" if won else "LOSS"
         print(f"  [{result}] {mkt['city_name']} {mkt['date']} | PnL: {'+'if pnl>=0 else ''}{pnl:.2f}")
+        notify(
+            f"[WeatherBet] {result} {mkt['city_name']}",
+            f"City: {mkt['city_name']}\nDate: {mkt['date']}\nResult: {result}\n"
+            f"PnL: {'+'if pnl>=0 else ''}{pnl:.2f}\nBalance: ${round(balance,2):,.2f}"
+        )
         resolved += 1
 
         save_market(mkt)
@@ -923,7 +1143,29 @@ def monitor_positions():
         stop_triggered = current_price <= stop
 
         if take_triggered or stop_triggered:
+            trader = get_trader()
             pnl = round((current_price - entry) * pos["shares"], 2)
+            token_id = pos.get("token_id") or _get_token_id(pos["market_id"],
+                                                             pos["bucket_low"],
+                                                             pos["bucket_high"])
+
+            # 实盘：执行真实卖出
+            if not trader.paper and token_id:
+                sell_order_id = trader.sell(
+                    token_id=token_id,
+                    price=current_price,
+                    shares=pos["shares"],
+                    order_type="IOC",
+                )
+                if sell_order_id:
+                    pos["order_id"] = sell_order_id
+                    pos["order_status"] = "closed"
+                    print(f"  [SELL SENT] order={sell_order_id}")
+                else:
+                    print(f"  [WARN] 卖出订单发送失败")
+            elif not token_id and not trader.paper:
+                print(f"  [WARN] 无法确定 token_id，无法卖出")
+
             balance += pos["cost"] + pnl
             pos["closed_at"]    = datetime.now(timezone.utc).isoformat()
             if take_triggered:
@@ -939,7 +1181,8 @@ def monitor_positions():
             pos["pnl"]          = pnl
             pos["status"]       = "closed"
             closed += 1
-            print(f"  [{reason}] {city_name} {mkt['date']} | entry ${entry:.3f} exit ${current_price:.3f} | {hours_left:.0f}h left | PnL: {'+'if pnl>=0 else ''}{pnl:.2f}")
+            mode_tag = "[REAL]" if not trader.paper else "[PAPER]"
+            print(f"  {mode_tag} [{reason}] {city_name} {mkt['date']} | entry ${entry:.3f} exit ${current_price:.3f} | {hours_left:.0f}h left | PnL: {'+'if pnl>=0 else ''}{pnl:.2f}")
             save_market(mkt)
 
     if closed:
@@ -949,18 +1192,31 @@ def monitor_positions():
     return closed
 
 
-def run_loop():
+def run_loop(real_mode: bool = False):
     global _cal
     _cal = load_cal()
 
+    # 如果命令行传了 --real，覆盖配置
+    if real_mode:
+        global TRADING_MODE
+        TRADING_MODE = "real"
+        trader = get_trader()
+        if trader.paper:
+            print("  [WARN] --real 参数已指定，但缺少 CLOB API 凭证，降级为 paper 模式")
+            print("         请在 config.json 中配置 poly_api_key / poly_passphrase / poly_private_key")
+
+    mode_label = "REAL" if (TRADING_MODE == "real" and not get_trader().paper) else "PAPER"
+
     print(f"\n{'='*55}")
-    print(f"  WEATHERBET — STARTING")
+    print(f"  WEATHERBET — STARTING [{mode_label} MODE]")
     print(f"{'='*55}")
     print(f"  Cities:     {len(LOCATIONS)}")
     print(f"  Balance:    ${BALANCE:,.0f} | Max bet: ${MAX_BET}")
     print(f"  Scan:       {SCAN_INTERVAL//60} min | Monitor: {MONITOR_INTERVAL//60} min")
     print(f"  Sources:    ECMWF + HRRR(US) + METAR(D+0)")
     print(f"  Data:       {DATA_DIR.resolve()}")
+    if not get_trader().paper:
+        print(f"  ⚠️  实盘模式 — 将使用真实资金下单！")
     print(f"  Ctrl+C to stop\n")
 
     last_full_scan = 0
@@ -1015,14 +1271,19 @@ def run_loop():
 # =============================================================================
 
 if __name__ == "__main__":
-    cmd = sys.argv[1] if len(sys.argv) > 1 else "run"
-    if cmd == "run":
-        run_loop()
-    elif cmd == "status":
+    parser = argparse.ArgumentParser(description="WeatherBet — Polymarket Weather Trading Bot")
+    parser.add_argument("command", nargs="?", default="run",
+                        choices=["run", "status", "report"],
+                        help="run: start bot loop | status: show positions | report: full report")
+    parser.add_argument("--real", action="store_true",
+                        help="启用实盘交易（需要配置 CLOB API 凭证）")
+    args = parser.parse_args()
+
+    if args.command == "run":
+        run_loop(real_mode=args.real)
+    elif args.command == "status":
         _cal = load_cal()
         print_status()
-    elif cmd == "report":
+    elif args.command == "report":
         _cal = load_cal()
         print_report()
-    else:
-        print("Usage: python weatherbet.py [run|status|report]")

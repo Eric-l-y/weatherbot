@@ -1,0 +1,254 @@
+{
+  "city": "paris",
+  "city_name": "Paris",
+  "date": "2026-06-06",
+  "unit": "C",
+  "station": "LFPG",
+  "event_end_date": "2026-06-06T12:00:00Z",
+  "hours_at_discovery": 31.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-05T04:43:36.401672+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.3,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-06-05T04:47:20.009413+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.2,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-06-05T04:50:54.437404+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.1,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-06-05T04:54:27.676854+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.1,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-06-05T04:57:59.686068+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.0,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-06-05T05:01:35.494899+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.0,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-05T04:43:36.401672+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-06-05T04:47:20.009413+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-06-05T04:50:54.437404+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-06-05T04:54:27.676854+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-06-05T04:57:59.686068+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-06-05T05:01:35.494899+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.315
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Paris be 15°C or below on June 6?",
+      "market_id": "2440734",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1178.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 16°C on June 6?",
+      "market_id": "2440735",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 458.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 17°C on June 6?",
+      "market_id": "2440736",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 423.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 18°C on June 6?",
+      "market_id": "2440737",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.02,
+      "ask": 0.98,
+      "price": 0.02,
+      "spread": 0.96,
+      "volume": 258.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 19°C on June 6?",
+      "market_id": "2440738",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.065,
+      "ask": 0.935,
+      "price": 0.065,
+      "spread": 0.87,
+      "volume": 274.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 20°C on June 6?",
+      "market_id": "2440739",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.305,
+      "ask": 0.695,
+      "price": 0.305,
+      "spread": 0.39,
+      "volume": 108.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 21°C on June 6?",
+      "market_id": "2440740",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.315,
+      "ask": 0.685,
+      "price": 0.315,
+      "spread": 0.37,
+      "volume": 110.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 22°C on June 6?",
+      "market_id": "2440741",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.245,
+      "ask": 0.755,
+      "price": 0.245,
+      "spread": 0.51,
+      "volume": 142.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 23°C on June 6?",
+      "market_id": "2440742",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.04,
+      "ask": 0.96,
+      "price": 0.04,
+      "spread": 0.92,
+      "volume": 255.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 24°C on June 6?",
+      "market_id": "2440743",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 88.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 25°C or higher on June 6?",
+      "market_id": "2440744",
+      "range": [
+        25.0,
+        999.0
+      ],
+      "bid": 0.019,
+      "ask": 0.981,
+      "price": 0.019,
+      "spread": 0.962,
+      "volume": 103.0
+    }
+  ],
+  "created_at": "2026-06-05T04:43:45.845854+00:00"
+}

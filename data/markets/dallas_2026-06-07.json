@@ -1,0 +1,1049 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-06-07",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-06-07T12:00:00Z",
+  "hours_at_discovery": 29.0,
+  "status": "closed",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-06T07:02:35.549936+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.0,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T07:05:19.540244+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.9,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T07:07:50.625484+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.9,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T07:10:25.288523+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.8,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T07:13:05.632167+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.8,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T07:15:51.484888+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.7,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T07:18:32.791220+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.7,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T07:32:19.882542+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.5,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T07:34:55.984018+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.4,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T07:37:51.816862+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.4,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T07:40:47.750029+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.3,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T08:04:06.190944+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.9,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T08:06:33.093775+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.9,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T08:09:16.505964+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.8,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T12:56:31.116692+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.1,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T12:59:27.870456+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.0,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:02:33.402026+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.0,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:05:21.177811+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.9,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:08:16.048420+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.9,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:11:09.305767+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.8,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:14:06.628189+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.8,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:26:27.563910+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.6,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:21:00.327377+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.6,
+      "ecmwf": 88,
+      "hrrr": 85,
+      "metar": 73,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:23:37.813387+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.6,
+      "ecmwf": 88,
+      "hrrr": 85,
+      "metar": 73,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:25:50.811643+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.6,
+      "ecmwf": 88,
+      "hrrr": 85,
+      "metar": 73,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:28:04.762173+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.5,
+      "ecmwf": 88,
+      "hrrr": 85,
+      "metar": 73,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:30:22.081643+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.5,
+      "ecmwf": 88,
+      "hrrr": 85,
+      "metar": 73,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:32:49.816586+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.4,
+      "ecmwf": 88,
+      "hrrr": 85,
+      "metar": 73,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:35:20.922138+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.4,
+      "ecmwf": 88,
+      "hrrr": 85,
+      "metar": 73,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:37:54.198634+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.4,
+      "ecmwf": 88,
+      "hrrr": 85,
+      "metar": 73,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:40:10.343765+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.3,
+      "ecmwf": 88,
+      "hrrr": 85,
+      "metar": 73,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:42:40.224878+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.3,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:44:52.387752+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.2,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:47:05.891050+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.2,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:49:40.080982+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.2,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:51:58.336102+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.1,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:54:16.777059+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.1,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:56:32.752907+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.1,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T04:58:54.052393+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.0,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T05:10:44.092341+00:00",
+      "horizon": "D+0",
+      "hours_left": 6.8,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T05:13:03.357235+00:00",
+      "horizon": "D+0",
+      "hours_left": 6.8,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T05:15:37.096535+00:00",
+      "horizon": "D+0",
+      "hours_left": 6.7,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T05:18:06.333501+00:00",
+      "horizon": "D+0",
+      "hours_left": 6.7,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T05:20:44.114976+00:00",
+      "horizon": "D+0",
+      "hours_left": 6.7,
+      "ecmwf": 88,
+      "hrrr": 86,
+      "metar": 73,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:44:10.055851+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 77,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:47:03.357205+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 77,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:49:53.647662+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 77,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:52:59.260527+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 77,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:55:42.727614+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 78,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:58:38.051857+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 78,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T15:01:23.171789+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 78,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T15:04:29.342750+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 78,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T15:07:43.776984+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 78,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T15:10:31.336013+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 78,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T17:48:53.523171+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 74,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T17:51:03.569609+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 74,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T17:53:19.026574+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 74,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T17:55:26.220284+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 76,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T17:57:54.202191+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 89,
+      "hrrr": 87,
+      "metar": 74,
+      "best": 87,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-06T07:02:35.549936+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-06-06T07:05:19.540244+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-06-06T07:07:50.625484+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-06-06T07:10:25.288523+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-06-06T07:13:05.632167+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-06-06T07:15:51.484888+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-06-06T07:18:32.791220+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-06-06T07:32:19.882542+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-06-06T07:34:55.984018+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-06-06T07:37:51.816862+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-06-06T07:40:47.750029+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-06T08:04:06.190944+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-06T08:06:33.093775+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-06T08:09:16.505964+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-06T12:56:31.116692+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-06-06T12:59:27.870456+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-06-06T13:02:33.402026+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-06-06T13:05:21.177811+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-06-06T13:08:16.048420+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-06-06T13:11:09.305767+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-06-06T13:14:06.628189+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-06-06T13:26:27.563910+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-06-07T04:21:00.327377+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:23:37.813387+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:25:50.811643+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:28:04.762173+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:30:22.081643+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:32:49.816586+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:35:20.922138+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:37:54.198634+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:40:10.343765+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:42:40.224878+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:44:52.387752+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:47:05.891050+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:49:40.080982+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:51:58.336102+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-07T04:54:16.777059+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-06-07T04:56:32.752907+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-06-07T04:58:54.052393+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-06-07T05:10:44.092341+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-06-07T05:13:03.357235+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-06-07T05:15:37.096535+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-06-07T05:18:06.333501+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-06-07T05:20:44.114976+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-06-07T14:44:10.055851+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.38
+    },
+    {
+      "ts": "2026-06-07T14:47:03.357205+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.38
+    },
+    {
+      "ts": "2026-06-07T14:49:53.647662+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.38
+    },
+    {
+      "ts": "2026-06-07T14:52:59.260527+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.38
+    },
+    {
+      "ts": "2026-06-07T14:55:42.727614+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-07T14:58:38.051857+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-07T15:01:23.171789+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-07T15:04:29.342750+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-07T15:07:43.776984+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-07T15:10:31.336013+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-07T17:48:53.523171+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-06-07T17:51:03.569609+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-06-07T17:53:19.026574+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-06-07T17:55:26.220284+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-06-07T17:57:54.202191+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.345
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Dallas be 81°F or below on June 7?",
+      "market_id": "2450091",
+      "range": [
+        -999.0,
+        81.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1926.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 82-83°F on June 7?",
+      "market_id": "2450092",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 7304.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 84-85°F on June 7?",
+      "market_id": "2450093",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.0325,
+      "ask": 0.9675,
+      "price": 0.0325,
+      "spread": 0.935,
+      "volume": 4089.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 86-87°F on June 7?",
+      "market_id": "2450094",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.12,
+      "ask": 0.88,
+      "price": 0.12,
+      "spread": 0.76,
+      "volume": 4574.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 88-89°F on June 7?",
+      "market_id": "2450095",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.305,
+      "ask": 0.695,
+      "price": 0.305,
+      "spread": 0.39,
+      "volume": 2589.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 90-91°F on June 7?",
+      "market_id": "2450096",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.345,
+      "ask": 0.655,
+      "price": 0.345,
+      "spread": 0.31,
+      "volume": 2453.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 92-93°F on June 7?",
+      "market_id": "2450097",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.149,
+      "ask": 0.851,
+      "price": 0.149,
+      "spread": 0.702,
+      "volume": 2140.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 94-95°F on June 7?",
+      "market_id": "2450098",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "bid": 0.0135,
+      "ask": 0.9865,
+      "price": 0.0135,
+      "spread": 0.973,
+      "volume": 2252.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 96-97°F on June 7?",
+      "market_id": "2450099",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 1222.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 98-99°F on June 7?",
+      "market_id": "2450100",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 773.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be 100°F or higher on June 7?",
+      "market_id": "2450101",
+      "range": [
+        100.0,
+        999.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 701.0
+    }
+  ],
+  "created_at": "2026-06-06T07:02:54.668004+00:00"
+}

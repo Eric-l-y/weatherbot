@@ -23,6 +23,7 @@ Everything in v1, plus:
 - **Slippage filter** — skips markets with spread > $0.03
 - **Self-calibration** — learns forecast accuracy per city over time
 - **Full data storage** — every forecast snapshot, trade, and resolution saved to JSON
+- **Real trading** — `--real` flag enables live Polymarket CLOB order execution
 
 ---
 
@@ -68,6 +69,15 @@ cd weatherbot
 pip install requests
 ```
 
+### 实盘交易（可选）
+```bash
+pip install py-clob-client
+```
+
+---
+
+## Config
+
 Create `config.json` in the project folder:
 ```json
 {
@@ -82,20 +92,44 @@ Create `config.json` in the project folder:
   "max_slippage": 0.03,
   "scan_interval": 3600,
   "calibration_min": 30,
-  "vc_key": "YOUR_VISUAL_CROSSING_KEY"
+  "vc_key": "YOUR_VISUAL_CROSSING_KEY",
+
+  "trading_mode": "paper",
+  "poly_api_key": "",
+  "poly_passphrase": "",
+  "poly_private_key": "",
+  "poly_environment": "production"
 }
 ```
 
-Get a free Visual Crossing API key at visualcrossing.com — used to fetch actual temperatures after market resolution.
+### 配置说明
+
+| 字段 | 默认值 | 说明 |
+|------|--------|------|
+| `trading_mode` | `"paper"` | `"paper"` 模拟交易 / `"real"` 实盘交易 |
+| `poly_api_key` | `""` | Polymarket CLOB API Key（实盘需要） |
+| `poly_passphrase` | `""` | CLOB API Passphrase（实盘需要） |
+| `poly_private_key` | `""` | Ethereum 私钥，十六进制不带 0x（实盘需要） |
+| `poly_environment` | `"production"` | `"production"` 或 `"sandbox"` |
+
+### 获取 CLOB API 凭证
+
+1. 登录 [Polymarket CLOB Dashboard](https://clob.polymarket.com/)
+2. 创建 API Key，获取 `apiKey` 和 `passphrase`
+3. 准备一个 funded 的以太坊钱包，导出私钥（十六进制，去掉 `0x` 前缀）
 
 ---
 
 ## Usage
+
 ```bash
-python weatherbet.py           # start the bot — scans every hour
-python weatherbet.py status    # balance and open positions
-python weatherbet.py report    # full breakdown of all resolved markets
+python weatherbet.py                    # 默认 paper 模式启动
+python weatherbet.py --real             # 实盘模式启动（需要配置 CLOB 凭证）
+python weatherbet.py status             # 查看持仓和余额
+python weatherbet.py report             # 完整交易报告
 ```
+
+> ⚠️ **实盘警告**：`--real` 会发送真实订单，使用真实资金。建议先用 `paper` 模式充分测试策略。
 
 ---
 

@@ -1,0 +1,179 @@
+{
+  "city": "paris",
+  "city_name": "Paris",
+  "date": "2026-06-11",
+  "unit": "C",
+  "station": "LFPG",
+  "event_end_date": "2026-06-11T12:00:00Z",
+  "hours_at_discovery": 47.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-09T12:35:00.986757+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.4,
+      "ecmwf": 17.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.8,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-09T12:35:00.986757+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.37
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Paris be 14°C or below on June 11?",
+      "market_id": "2476880",
+      "range": [
+        -999.0,
+        14.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 58.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 15°C on June 11?",
+      "market_id": "2476881",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 104.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 16°C on June 11?",
+      "market_id": "2476882",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 410.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 17°C on June 11?",
+      "market_id": "2476883",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0305,
+      "ask": 0.9695,
+      "price": 0.0305,
+      "spread": 0.939,
+      "volume": 411.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 18°C on June 11?",
+      "market_id": "2476884",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.12,
+      "ask": 0.88,
+      "price": 0.12,
+      "spread": 0.76,
+      "volume": 723.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 19°C on June 11?",
+      "market_id": "2476885",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.37,
+      "ask": 0.63,
+      "price": 0.37,
+      "spread": 0.26,
+      "volume": 189.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 20°C on June 11?",
+      "market_id": "2476886",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.355,
+      "ask": 0.645,
+      "price": 0.355,
+      "spread": 0.29,
+      "volume": 272.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 21°C on June 11?",
+      "market_id": "2476887",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.155,
+      "ask": 0.845,
+      "price": 0.155,
+      "spread": 0.69,
+      "volume": 195.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 22°C on June 11?",
+      "market_id": "2476888",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.0155,
+      "ask": 0.9845,
+      "price": 0.0155,
+      "spread": 0.969,
+      "volume": 177.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 23°C on June 11?",
+      "market_id": "2476889",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 88.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 24°C or higher on June 11?",
+      "market_id": "2476890",
+      "range": [
+        24.0,
+        999.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 73.0
+    }
+  ],
+  "created_at": "2026-06-09T12:35:26.637493+00:00"
+}

@@ -1,0 +1,254 @@
+{
+  "city": "atlanta",
+  "city_name": "Atlanta",
+  "date": "2026-06-02",
+  "unit": "F",
+  "station": "KATL",
+  "event_end_date": "2026-06-02T12:00:00Z",
+  "hours_at_discovery": 7.4,
+  "status": "closed",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-02T04:36:30.787425+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.4,
+      "ecmwf": 77,
+      "hrrr": 80,
+      "metar": 72,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-02T04:39:23.803395+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.3,
+      "ecmwf": 77,
+      "hrrr": 80,
+      "metar": 72,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-02T10:02:03.346263+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.0,
+      "ecmwf": 79,
+      "hrrr": 81,
+      "metar": 69,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-02T13:01:24.636530+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 79,
+      "hrrr": 82,
+      "metar": 73,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-02T14:40:27.551608+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 79,
+      "hrrr": 82,
+      "metar": 76,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-02T14:43:57.223062+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 79,
+      "hrrr": 82,
+      "metar": 76,
+      "best": 82,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-02T04:36:30.787425+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-06-02T04:39:23.803395+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-06-02T10:02:03.346263+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-06-02T13:01:24.636530+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-02T14:40:27.551608+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-06-02T14:43:57.223062+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.385
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Atlanta be 73°F or below on June 2?",
+      "market_id": "2399737",
+      "range": [
+        -999.0,
+        73.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 7661.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 74-75°F on June 2?",
+      "market_id": "2399738",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 7383.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 76-77°F on June 2?",
+      "market_id": "2399739",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.0225,
+      "ask": 0.9775,
+      "price": 0.0225,
+      "spread": 0.955,
+      "volume": 7081.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 78-79°F on June 2?",
+      "market_id": "2399740",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 5739.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 80-81°F on June 2?",
+      "market_id": "2399741",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.315,
+      "ask": 0.685,
+      "price": 0.315,
+      "spread": 0.37,
+      "volume": 4925.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 82-83°F on June 2?",
+      "market_id": "2399742",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.385,
+      "ask": 0.615,
+      "price": 0.385,
+      "spread": 0.23,
+      "volume": 3776.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 84-85°F on June 2?",
+      "market_id": "2399743",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.15,
+      "ask": 0.85,
+      "price": 0.15,
+      "spread": 0.7,
+      "volume": 4082.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 86-87°F on June 2?",
+      "market_id": "2399744",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.024,
+      "ask": 0.976,
+      "price": 0.024,
+      "spread": 0.952,
+      "volume": 5095.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 88-89°F on June 2?",
+      "market_id": "2399745",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 5193.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 90-91°F on June 2?",
+      "market_id": "2399746",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 2393.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be 92°F or higher on June 2?",
+      "market_id": "2399747",
+      "range": [
+        92.0,
+        999.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 1140.0
+    }
+  ],
+  "created_at": "2026-06-02T04:36:40.023903+00:00"
+}

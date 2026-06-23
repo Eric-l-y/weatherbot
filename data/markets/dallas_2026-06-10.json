@@ -1,0 +1,374 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-06-10",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-06-10T12:00:00Z",
+  "hours_at_discovery": 27.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-09T08:38:47.010461+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.3,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T08:41:43.967203+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.3,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T08:44:33.049400+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.3,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T08:52:40.793339+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.1,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T11:50:30.723110+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.2,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T11:53:25.854724+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.1,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T11:56:38.737942+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.1,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T11:59:42.559155+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.0,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:30:23.584310+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.5,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:33:41.274968+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.4,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:37:39.629687+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.4,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:41:01.342767+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.3,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:44:19.087308+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.3,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:48:05.706379+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.2,
+      "ecmwf": 94,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-09T08:38:47.010461+00:00",
+      "top_bucket": "94.0-95.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-09T08:41:43.967203+00:00",
+      "top_bucket": "94.0-95.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-09T08:44:33.049400+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-06-09T08:52:40.793339+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-06-09T11:50:30.723110+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-06-09T11:53:25.854724+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-06-09T11:56:38.737942+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-06-09T11:59:42.559155+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-06-09T12:30:23.584310+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-06-09T12:33:41.274968+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-09T12:37:39.629687+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-09T12:41:01.342767+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-09T12:44:19.087308+00:00",
+      "top_bucket": "94.0-95.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-06-09T12:48:05.706379+00:00",
+      "top_bucket": "94.0-95.0F",
+      "top_price": 0.355
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Dallas be 85°F or below on June 10?",
+      "market_id": "2475283",
+      "range": [
+        -999.0,
+        85.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 204.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 86-87°F on June 10?",
+      "market_id": "2475284",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 48.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 88-89°F on June 10?",
+      "market_id": "2475285",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.0305,
+      "ask": 0.9695,
+      "price": 0.0305,
+      "spread": 0.939,
+      "volume": 1114.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 90-91°F on June 10?",
+      "market_id": "2475286",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.16,
+      "ask": 0.84,
+      "price": 0.16,
+      "spread": 0.68,
+      "volume": 861.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 92-93°F on June 10?",
+      "market_id": "2475287",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.35,
+      "ask": 0.65,
+      "price": 0.35,
+      "spread": 0.3,
+      "volume": 164.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 94-95°F on June 10?",
+      "market_id": "2475288",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "bid": 0.355,
+      "ask": 0.645,
+      "price": 0.355,
+      "spread": 0.29,
+      "volume": 198.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 96-97°F on June 10?",
+      "market_id": "2475289",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "bid": 0.115,
+      "ask": 0.885,
+      "price": 0.115,
+      "spread": 0.77,
+      "volume": 298.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 98-99°F on June 10?",
+      "market_id": "2475290",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "bid": 0.015,
+      "ask": 0.985,
+      "price": 0.015,
+      "spread": 0.97,
+      "volume": 51.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 100-101°F on June 10?",
+      "market_id": "2475291",
+      "range": [
+        100.0,
+        101.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 85.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 102-103°F on June 10?",
+      "market_id": "2475292",
+      "range": [
+        102.0,
+        103.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 32.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be 104°F or higher on June 10?",
+      "market_id": "2475293",
+      "range": [
+        104.0,
+        999.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 36.0
+    }
+  ],
+  "created_at": "2026-06-09T08:39:00.776692+00:00"
+}

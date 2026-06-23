@@ -1,0 +1,509 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-06-07",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-06-07T12:00:00Z",
+  "hours_at_discovery": 23.0,
+  "status": "closed",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-06T12:56:53.662479+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.0,
+      "ecmwf": 63,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T12:59:45.666022+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.0,
+      "ecmwf": 63,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:02:51.765221+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.9,
+      "ecmwf": 63,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:05:43.039873+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.9,
+      "ecmwf": 63,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:08:35.469521+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.9,
+      "ecmwf": 63,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:11:31.520563+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.8,
+      "ecmwf": 63,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:14:35.153502+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.8,
+      "ecmwf": 63,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-06T13:26:52.110880+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.5,
+      "ecmwf": 63,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:44:28.738528+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 49,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:47:22.381936+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 49,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:50:19.738794+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 49,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:53:14.726467+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 49,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:56:04.900814+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 49,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T14:58:54.451820+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 49,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T15:01:43.677349+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 49,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T15:04:53.873708+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 49,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T15:08:04.161836+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 49,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T15:10:50.817179+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 49,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T17:49:07.623367+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 55,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T17:51:16.200594+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 55,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T17:53:31.341858+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 55,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T17:55:41.342163+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 55,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-07T17:58:07.024818+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 62,
+      "hrrr": 64,
+      "metar": 55,
+      "best": 64,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-06T12:56:53.662479+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-06-06T12:59:45.666022+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-06-06T13:02:51.765221+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-06-06T13:05:43.039873+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-06-06T13:08:35.469521+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-06-06T13:11:31.520563+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-06-06T13:14:35.153502+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-06-06T13:26:52.110880+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-06-07T14:44:28.738528+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-06-07T14:47:22.381936+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-06-07T14:50:19.738794+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-06-07T14:53:14.726467+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-06-07T14:56:04.900814+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-06-07T14:58:54.451820+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-06-07T15:01:43.677349+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-06-07T15:04:53.873708+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-06-07T15:08:04.161836+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-06-07T15:10:50.817179+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-06-07T17:49:07.623367+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.54
+    },
+    {
+      "ts": "2026-06-07T17:51:16.200594+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-06-07T17:53:31.341858+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-06-07T17:55:41.342163+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-06-07T17:58:07.024818+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.505
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 53°F or below on June 7?",
+      "market_id": "2450069",
+      "range": [
+        -999.0,
+        53.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 793.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 54-55°F on June 7?",
+      "market_id": "2450070",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1042.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 56-57°F on June 7?",
+      "market_id": "2450071",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1070.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 58-59°F on June 7?",
+      "market_id": "2450072",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 1584.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 60-61°F on June 7?",
+      "market_id": "2450073",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.038,
+      "ask": 0.962,
+      "price": 0.038,
+      "spread": 0.924,
+      "volume": 3066.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 62-63°F on June 7?",
+      "market_id": "2450074",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.325,
+      "ask": 0.675,
+      "price": 0.325,
+      "spread": 0.35,
+      "volume": 1654.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 64-65°F on June 7?",
+      "market_id": "2450075",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.505,
+      "ask": 0.495,
+      "price": 0.505,
+      "spread": -0.01,
+      "volume": 2823.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 66-67°F on June 7?",
+      "market_id": "2450076",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.125,
+      "ask": 0.875,
+      "price": 0.125,
+      "spread": 0.75,
+      "volume": 2973.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 68-69°F on June 7?",
+      "market_id": "2450077",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.025,
+      "ask": 0.975,
+      "price": 0.025,
+      "spread": 0.95,
+      "volume": 2536.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 70-71°F on June 7?",
+      "market_id": "2450078",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 541.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 72°F or higher on June 7?",
+      "market_id": "2450079",
+      "range": [
+        72.0,
+        999.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 1892.0
+    }
+  ],
+  "created_at": "2026-06-06T12:57:09.027401+00:00"
+}

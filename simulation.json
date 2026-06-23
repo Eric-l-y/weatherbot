@@ -1,0 +1,30 @@
+{
+  "balance": 950.0,
+  "starting_balance": 1000.0,
+  "positions": {
+    "2064899": {
+      "question": "Will the highest temperature in New York City be between 52-53\u00b0F on April 26?",
+      "entry_price": 0.11,
+      "shares": 454.54545454545456,
+      "cost": 50.0,
+      "date": "2026-04-26",
+      "location": "nyc",
+      "forecast_temp": 53,
+      "opened_at": "2026-04-26T13:02:42.364531"
+    }
+  },
+  "trades": [
+    {
+      "type": "entry",
+      "question": "Will the highest temperature in New York City be between 52-53\u00b0F on April 26?",
+      "entry_price": 0.11,
+      "shares": 454.54545454545456,
+      "cost": 50.0,
+      "opened_at": "2026-04-26T13:02:42.364553"
+    }
+  ],
+  "total_trades": 1,
+  "wins": 0,
+  "losses": 0,
+  "peak_balance": 1000.0
+}

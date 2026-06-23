@@ -1,0 +1,194 @@
+{
+  "city": "buenos-aires",
+  "city_name": "Buenos Aires",
+  "date": "2026-06-05",
+  "unit": "C",
+  "station": "SAEZ",
+  "event_end_date": "2026-06-05T12:00:00Z",
+  "hours_at_discovery": 24.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-04T11:43:50.204035+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.3,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-06-04T13:11:10.231896+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.8,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-04T11:43:50.204035+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-04T13:11:10.231896+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.35
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Buenos Aires be 15°C or below on June 5?",
+      "market_id": "2424426",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 64.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 16°C on June 5?",
+      "market_id": "2424427",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 215.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 17°C on June 5?",
+      "market_id": "2424428",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.071,
+      "ask": 0.929,
+      "price": 0.071,
+      "spread": 0.858,
+      "volume": 739.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 18°C on June 5?",
+      "market_id": "2424429",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.245,
+      "ask": 0.755,
+      "price": 0.245,
+      "spread": 0.51,
+      "volume": 640.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 19°C on June 5?",
+      "market_id": "2424430",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.35,
+      "ask": 0.65,
+      "price": 0.35,
+      "spread": 0.3,
+      "volume": 754.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 20°C on June 5?",
+      "market_id": "2424431",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.225,
+      "ask": 0.775,
+      "price": 0.225,
+      "spread": 0.55,
+      "volume": 571.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 21°C on June 5?",
+      "market_id": "2424432",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.11,
+      "ask": 0.89,
+      "price": 0.11,
+      "spread": 0.78,
+      "volume": 974.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 22°C on June 5?",
+      "market_id": "2424433",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.031,
+      "ask": 0.969,
+      "price": 0.031,
+      "spread": 0.938,
+      "volume": 813.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 23°C on June 5?",
+      "market_id": "2424434",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 593.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 24°C on June 5?",
+      "market_id": "2424435",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1102.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 25°C or higher on June 5?",
+      "market_id": "2424436",
+      "range": [
+        25.0,
+        999.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1085.0
+    }
+  ],
+  "created_at": "2026-06-04T11:44:20.415807+00:00"
+}

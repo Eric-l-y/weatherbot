@@ -1,0 +1,239 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-05-31",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-05-31T12:00:00Z",
+  "hours_at_discovery": 44.0,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-29T16:00:24.203416+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.0,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:05:17.168604+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.9,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:07:46.150582+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.9,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:10:26.057936+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.8,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:13:00.170981+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.8,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-29T16:00:24.203416+00:00",
+      "top_bucket": "66.0-67.0F",
+      "top_price": 0.33
+    },
+    {
+      "ts": "2026-05-29T18:05:17.168604+00:00",
+      "top_bucket": "66.0-67.0F",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-05-29T18:07:46.150582+00:00",
+      "top_bucket": "66.0-67.0F",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-05-29T18:10:26.057936+00:00",
+      "top_bucket": "66.0-67.0F",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-05-29T18:13:00.170981+00:00",
+      "top_bucket": "66.0-67.0F",
+      "top_price": 0.335
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 57°F or below on May 31?",
+      "market_id": "2383672",
+      "range": [
+        -999.0,
+        57.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 566.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 58-59°F on May 31?",
+      "market_id": "2383673",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 147.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 60-61°F on May 31?",
+      "market_id": "2383674",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.0155,
+      "ask": 0.9845,
+      "price": 0.0155,
+      "spread": 0.969,
+      "volume": 359.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 62-63°F on May 31?",
+      "market_id": "2383675",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 660.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 64-65°F on May 31?",
+      "market_id": "2383676",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.23,
+      "ask": 0.77,
+      "price": 0.23,
+      "spread": 0.54,
+      "volume": 62.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 66-67°F on May 31?",
+      "market_id": "2383677",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.335,
+      "ask": 0.665,
+      "price": 0.335,
+      "spread": 0.33,
+      "volume": 168.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 68-69°F on May 31?",
+      "market_id": "2383678",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.185,
+      "ask": 0.815,
+      "price": 0.185,
+      "spread": 0.63,
+      "volume": 125.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 70-71°F on May 31?",
+      "market_id": "2383679",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.085,
+      "ask": 0.915,
+      "price": 0.085,
+      "spread": 0.83,
+      "volume": 172.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 72-73°F on May 31?",
+      "market_id": "2383680",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.01,
+      "ask": 0.99,
+      "price": 0.01,
+      "spread": 0.98,
+      "volume": 182.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 74-75°F on May 31?",
+      "market_id": "2383681",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 130.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 76°F or higher on May 31?",
+      "market_id": "2383682",
+      "range": [
+        76.0,
+        999.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 377.0
+    }
+  ],
+  "created_at": "2026-05-29T16:00:37.146695+00:00"
+}

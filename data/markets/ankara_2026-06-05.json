@@ -1,0 +1,209 @@
+{
+  "city": "ankara",
+  "city_name": "Ankara",
+  "date": "2026-06-05",
+  "unit": "C",
+  "station": "LTAC",
+  "event_end_date": "2026-06-05T12:00:00Z",
+  "hours_at_discovery": 24.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-04T11:38:37.729493+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.3,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-06-04T12:51:56.621251+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.1,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-06-04T13:06:41.795963+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.9,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-04T11:38:37.729493+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.39
+    },
+    {
+      "ts": "2026-06-04T12:51:56.621251+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-06-04T13:06:41.795963+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.405
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Ankara be 21°C or below on June 5?",
+      "market_id": "2424525",
+      "range": [
+        -999.0,
+        21.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 145.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 22°C on June 5?",
+      "market_id": "2424526",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 261.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 23°C on June 5?",
+      "market_id": "2424527",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 444.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 24°C on June 5?",
+      "market_id": "2424528",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.015,
+      "ask": 0.985,
+      "price": 0.015,
+      "spread": 0.97,
+      "volume": 1044.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 25°C on June 5?",
+      "market_id": "2424529",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.07,
+      "ask": 0.93,
+      "price": 0.07,
+      "spread": 0.86,
+      "volume": 2108.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 26°C on June 5?",
+      "market_id": "2424530",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.405,
+      "ask": 0.595,
+      "price": 0.405,
+      "spread": 0.19,
+      "volume": 739.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 27°C on June 5?",
+      "market_id": "2424531",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.385,
+      "ask": 0.615,
+      "price": 0.385,
+      "spread": 0.23,
+      "volume": 745.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 28°C on June 5?",
+      "market_id": "2424532",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.125,
+      "ask": 0.875,
+      "price": 0.125,
+      "spread": 0.75,
+      "volume": 1202.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 29°C on June 5?",
+      "market_id": "2424533",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.034,
+      "ask": 0.966,
+      "price": 0.034,
+      "spread": 0.932,
+      "volume": 849.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 30°C on June 5?",
+      "market_id": "2424534",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 263.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 31°C or higher on June 5?",
+      "market_id": "2424535",
+      "range": [
+        31.0,
+        999.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 264.0
+    }
+  ],
+  "created_at": "2026-06-04T11:39:18.184658+00:00"
+}

@@ -1,0 +1,209 @@
+{
+  "city": "singapore",
+  "city_name": "Singapore",
+  "date": "2026-06-05",
+  "unit": "C",
+  "station": "WSSS",
+  "event_end_date": "2026-06-05T12:00:00Z",
+  "hours_at_discovery": 24.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-04T11:41:01.700801+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.3,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-06-04T12:54:23.893353+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.1,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-06-04T13:08:42.450425+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.8,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-04T11:41:01.700801+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-06-04T12:54:23.893353+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-06-04T13:08:42.450425+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.515
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Singapore be 26°C or below on June 5?",
+      "market_id": "2424613",
+      "range": [
+        -999.0,
+        26.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 939.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 27°C on June 5?",
+      "market_id": "2424614",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 437.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 28°C on June 5?",
+      "market_id": "2424615",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 178.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 29°C on June 5?",
+      "market_id": "2424616",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 2178.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 30°C on June 5?",
+      "market_id": "2424617",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.0145,
+      "ask": 0.9855,
+      "price": 0.0145,
+      "spread": 0.971,
+      "volume": 1084.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 31°C on June 5?",
+      "market_id": "2424618",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.055,
+      "ask": 0.945,
+      "price": 0.055,
+      "spread": 0.89,
+      "volume": 1851.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 32°C on June 5?",
+      "market_id": "2424619",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.255,
+      "ask": 0.745,
+      "price": 0.255,
+      "spread": 0.49,
+      "volume": 680.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 33°C on June 5?",
+      "market_id": "2424620",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.515,
+      "ask": 0.485,
+      "price": 0.515,
+      "spread": -0.03,
+      "volume": 773.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 34°C on June 5?",
+      "market_id": "2424621",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.155,
+      "ask": 0.845,
+      "price": 0.155,
+      "spread": 0.69,
+      "volume": 1375.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 35°C on June 5?",
+      "market_id": "2424622",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "bid": 0.0095,
+      "ask": 0.9905,
+      "price": 0.0095,
+      "spread": 0.981,
+      "volume": 1990.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 36°C or higher on June 5?",
+      "market_id": "2424623",
+      "range": [
+        36.0,
+        999.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 4031.0
+    }
+  ],
+  "created_at": "2026-06-04T11:41:32.233383+00:00"
+}

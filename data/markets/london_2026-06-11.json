@@ -1,0 +1,239 @@
+{
+  "city": "london",
+  "city_name": "London",
+  "date": "2026-06-11",
+  "unit": "C",
+  "station": "EGLC",
+  "event_end_date": "2026-06-11T12:00:00Z",
+  "hours_at_discovery": 47.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-09T12:34:41.053080+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.4,
+      "ecmwf": 15.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-06-09T12:38:34.424496+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.4,
+      "ecmwf": 15.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-06-09T12:41:58.791881+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.3,
+      "ecmwf": 15.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-06-09T12:45:23.496434+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.2,
+      "ecmwf": 15.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-06-09T12:49:03.390755+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.2,
+      "ecmwf": 15.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.2,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-09T12:34:41.053080+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-06-09T12:38:34.424496+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-06-09T12:41:58.791881+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-06-09T12:45:23.496434+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-06-09T12:49:03.390755+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.405
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in London be 9°C or below on June 11?",
+      "market_id": "2476869",
+      "range": [
+        -999.0,
+        9.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 521.0
+    },
+    {
+      "question": "Will the highest temperature in London be 10°C on June 11?",
+      "market_id": "2476870",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 467.0
+    },
+    {
+      "question": "Will the highest temperature in London be 11°C on June 11?",
+      "market_id": "2476871",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 463.0
+    },
+    {
+      "question": "Will the highest temperature in London be 12°C on June 11?",
+      "market_id": "2476872",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 479.0
+    },
+    {
+      "question": "Will the highest temperature in London be 13°C on June 11?",
+      "market_id": "2476873",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 375.0
+    },
+    {
+      "question": "Will the highest temperature in London be 14°C on June 11?",
+      "market_id": "2476874",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0735,
+      "ask": 0.9265,
+      "price": 0.0735,
+      "spread": 0.853,
+      "volume": 518.0
+    },
+    {
+      "question": "Will the highest temperature in London be 15°C on June 11?",
+      "market_id": "2476875",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.155,
+      "ask": 0.845,
+      "price": 0.155,
+      "spread": 0.69,
+      "volume": 427.0
+    },
+    {
+      "question": "Will the highest temperature in London be 16°C on June 11?",
+      "market_id": "2476876",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.405,
+      "ask": 0.595,
+      "price": 0.405,
+      "spread": 0.19,
+      "volume": 505.0
+    },
+    {
+      "question": "Will the highest temperature in London be 17°C on June 11?",
+      "market_id": "2476877",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.235,
+      "ask": 0.765,
+      "price": 0.235,
+      "spread": 0.53,
+      "volume": 325.0
+    },
+    {
+      "question": "Will the highest temperature in London be 18°C on June 11?",
+      "market_id": "2476878",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 660.0
+    },
+    {
+      "question": "Will the highest temperature in London be 19°C or higher on June 11?",
+      "market_id": "2476879",
+      "range": [
+        19.0,
+        999.0
+      ],
+      "bid": 0.0375,
+      "ask": 0.9625,
+      "price": 0.0375,
+      "spread": 0.925,
+      "volume": 641.0
+    }
+  ],
+  "created_at": "2026-06-09T12:34:58.551055+00:00"
+}

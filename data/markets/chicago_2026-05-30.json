@@ -1,0 +1,464 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-05-30",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-05-30T12:00:00Z",
+  "hours_at_discovery": 20.0,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-29T15:59:32.077450+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.0,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T16:21:09.957263+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.6,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T16:23:15.986265+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.6,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T17:55:27.412769+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.1,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T17:57:17.332984+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.0,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T17:59:03.142673+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.0,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:00:50.816407+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.0,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:02:44.389117+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.0,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:04:30.889924+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.9,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:07:01.016711+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.9,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:09:32.304336+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.8,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:12:08.177707+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.8,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:14:44.204297+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.8,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:16:32.365036+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:18:22.339405+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:20:22.617082+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:22:22.735617+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.6,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:24:21.300451+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.6,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:26:12.684835+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.6,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:27:59.776384+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.5,
+      "ecmwf": 74,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-29T15:59:32.077450+00:00",
+      "top_bucket": "74.0-999.0F",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-05-29T16:21:09.957263+00:00",
+      "top_bucket": "74.0-999.0F",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-05-29T16:23:15.986265+00:00",
+      "top_bucket": "74.0-999.0F",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-05-29T17:55:27.412769+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-05-29T17:57:17.332984+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-05-29T17:59:03.142673+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-05-29T18:00:50.816407+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-05-29T18:02:44.389117+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-05-29T18:04:30.889924+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-05-29T18:07:01.016711+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-05-29T18:09:32.304336+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-05-29T18:12:08.177707+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-05-29T18:14:44.204297+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-05-29T18:16:32.365036+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-05-29T18:18:22.339405+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-05-29T18:20:22.617082+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-05-29T18:22:22.735617+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-05-29T18:24:21.300451+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-05-29T18:26:12.684835+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-05-29T18:27:59.776384+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.305
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 55°F or below on May 30?",
+      "market_id": "2375748",
+      "range": [
+        -999.0,
+        55.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 47237.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 56-57°F on May 30?",
+      "market_id": "2375749",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1184.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 58-59°F on May 30?",
+      "market_id": "2375750",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 1120.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 60-61°F on May 30?",
+      "market_id": "2375751",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1282.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 62-63°F on May 30?",
+      "market_id": "2375752",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1881.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 64-65°F on May 30?",
+      "market_id": "2375753",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 2274.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 66-67°F on May 30?",
+      "market_id": "2375754",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.0345,
+      "ask": 0.9655,
+      "price": 0.0345,
+      "spread": 0.931,
+      "volume": 1555.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 68-69°F on May 30?",
+      "market_id": "2375755",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.12,
+      "ask": 0.88,
+      "price": 0.12,
+      "spread": 0.76,
+      "volume": 911.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 70-71°F on May 30?",
+      "market_id": "2375756",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.285,
+      "ask": 0.715,
+      "price": 0.285,
+      "spread": 0.43,
+      "volume": 1246.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 72-73°F on May 30?",
+      "market_id": "2375757",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.305,
+      "ask": 0.695,
+      "price": 0.305,
+      "spread": 0.39,
+      "volume": 1280.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 74°F or higher on May 30?",
+      "market_id": "2375758",
+      "range": [
+        74.0,
+        999.0
+      ],
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 2017.0
+    }
+  ],
+  "created_at": "2026-05-29T15:59:43.921438+00:00"
+}

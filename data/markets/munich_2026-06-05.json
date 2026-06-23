@@ -1,0 +1,209 @@
+{
+  "city": "munich",
+  "city_name": "Munich",
+  "date": "2026-06-05",
+  "unit": "C",
+  "station": "EDDM",
+  "event_end_date": "2026-06-05T12:00:00Z",
+  "hours_at_discovery": 24.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-04T11:38:04.161604+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.4,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-06-04T12:51:27.307715+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.1,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-06-04T13:06:16.102304+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.9,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-04T11:38:04.161604+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.43
+    },
+    {
+      "ts": "2026-06-04T12:51:27.307715+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-06-04T13:06:16.102304+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.445
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Munich be 13°C or below on June 5?",
+      "market_id": "2424558",
+      "range": [
+        -999.0,
+        13.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 305.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 14°C on June 5?",
+      "market_id": "2424559",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 303.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 15°C on June 5?",
+      "market_id": "2424560",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 321.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 16°C on June 5?",
+      "market_id": "2424561",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 422.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 17°C on June 5?",
+      "market_id": "2424562",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.055,
+      "ask": 0.945,
+      "price": 0.055,
+      "spread": 0.89,
+      "volume": 889.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 18°C on June 5?",
+      "market_id": "2424563",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 1199.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 19°C on June 5?",
+      "market_id": "2424564",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.445,
+      "ask": 0.555,
+      "price": 0.445,
+      "spread": 0.11,
+      "volume": 857.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 20°C on June 5?",
+      "market_id": "2424565",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.15,
+      "ask": 0.85,
+      "price": 0.15,
+      "spread": 0.7,
+      "volume": 888.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 21°C on June 5?",
+      "market_id": "2424566",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.0285,
+      "ask": 0.9715,
+      "price": 0.0285,
+      "spread": 0.943,
+      "volume": 1138.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 22°C on June 5?",
+      "market_id": "2424567",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 886.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 23°C or higher on June 5?",
+      "market_id": "2424568",
+      "range": [
+        23.0,
+        999.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 1008.0
+    }
+  ],
+  "created_at": "2026-06-04T11:38:35.853801+00:00"
+}

@@ -1,0 +1,239 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-05-30",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-05-30T12:00:00Z",
+  "hours_at_discovery": 20.0,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-29T16:00:03.504705+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.0,
+      "ecmwf": 89,
+      "hrrr": 94,
+      "metar": null,
+      "best": 94,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:05:02.766793+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.9,
+      "ecmwf": 89,
+      "hrrr": 94,
+      "metar": null,
+      "best": 94,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:07:31.363830+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.9,
+      "ecmwf": 89,
+      "hrrr": 94,
+      "metar": null,
+      "best": 94,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:10:02.300813+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.8,
+      "ecmwf": 89,
+      "hrrr": 94,
+      "metar": null,
+      "best": 94,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-05-29T18:12:45.853541+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.8,
+      "ecmwf": 89,
+      "hrrr": 94,
+      "metar": null,
+      "best": 94,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-29T16:00:03.504705+00:00",
+      "top_bucket": "88.0-999.0F",
+      "top_price": 0.9545
+    },
+    {
+      "ts": "2026-05-29T18:05:02.766793+00:00",
+      "top_bucket": "88.0-999.0F",
+      "top_price": 0.944
+    },
+    {
+      "ts": "2026-05-29T18:07:31.363830+00:00",
+      "top_bucket": "88.0-999.0F",
+      "top_price": 0.944
+    },
+    {
+      "ts": "2026-05-29T18:10:02.300813+00:00",
+      "top_bucket": "88.0-999.0F",
+      "top_price": 0.944
+    },
+    {
+      "ts": "2026-05-29T18:12:45.853541+00:00",
+      "top_bucket": "88.0-999.0F",
+      "top_price": 0.944
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Dallas be 69°F or below on May 30?",
+      "market_id": "2375715",
+      "range": [
+        -999.0,
+        69.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 415.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 70-71°F on May 30?",
+      "market_id": "2375716",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 297.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 72-73°F on May 30?",
+      "market_id": "2375717",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 362.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 74-75°F on May 30?",
+      "market_id": "2375718",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 185.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 76-77°F on May 30?",
+      "market_id": "2375719",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 300.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 78-79°F on May 30?",
+      "market_id": "2375720",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 165.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 80-81°F on May 30?",
+      "market_id": "2375721",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 153.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 82-83°F on May 30?",
+      "market_id": "2375722",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 324.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 84-85°F on May 30?",
+      "market_id": "2375723",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 676.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 86-87°F on May 30?",
+      "market_id": "2375724",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.0355,
+      "ask": 0.9645,
+      "price": 0.0355,
+      "spread": 0.929,
+      "volume": 1253.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be 88°F or higher on May 30?",
+      "market_id": "2375725",
+      "range": [
+        88.0,
+        999.0
+      ],
+      "bid": 0.944,
+      "ask": 0.056,
+      "price": 0.944,
+      "spread": -0.888,
+      "volume": 1388.0
+    }
+  ],
+  "created_at": "2026-05-29T16:00:22.149316+00:00"
+}

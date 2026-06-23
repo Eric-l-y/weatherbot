@@ -9,6 +9,18 @@
   "kelly_fraction": 0.25,
   "scan_interval": 3600,
   "calibration_min": 30,
-  "vc_key": "YOUR_KEY_HERE",
-  "max_slippage": 0.03
+  "vc_key": "KGPSVGWKWJBVMF8MNRKCRMLA9",
+  "max_slippage": 0.03,
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "",
+  "smtp_pass": "",
+  "notify_email": "",
+  "smtp_tls": true,
+
+  "trading_mode": "paper",
+  "poly_private_key": "",
+  "poly_funder": "",
+  "poly_chain_id": 137,
+  "poly_signature_type": 0
 }

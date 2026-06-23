@@ -1,0 +1,479 @@
+{
+  "city": "atlanta",
+  "city_name": "Atlanta",
+  "date": "2026-06-08",
+  "unit": "F",
+  "station": "KATL",
+  "event_end_date": "2026-06-08T12:00:00Z",
+  "hours_at_discovery": 10.4,
+  "status": "closed",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-08T01:37:21.452881+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.4,
+      "ecmwf": 79,
+      "hrrr": 83,
+      "metar": 75,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T01:40:07.330260+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.3,
+      "ecmwf": 79,
+      "hrrr": 83,
+      "metar": 75,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T01:42:53.824533+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.3,
+      "ecmwf": 79,
+      "hrrr": 83,
+      "metar": 75,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T01:45:38.014455+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.2,
+      "ecmwf": 79,
+      "hrrr": 83,
+      "metar": 75,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T01:48:22.349670+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.2,
+      "ecmwf": 79,
+      "hrrr": 83,
+      "metar": 75,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T01:51:16.856453+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.1,
+      "ecmwf": 79,
+      "hrrr": 83,
+      "metar": 75,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T01:54:16.819606+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.1,
+      "ecmwf": 79,
+      "hrrr": 83,
+      "metar": 75,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T01:57:12.266116+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.0,
+      "ecmwf": 79,
+      "hrrr": 83,
+      "metar": 73,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T02:00:01.814064+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.0,
+      "ecmwf": 79,
+      "hrrr": 83,
+      "metar": null,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T05:23:24.090499+00:00",
+      "horizon": "D+0",
+      "hours_left": 6.6,
+      "ecmwf": 79,
+      "hrrr": 79,
+      "metar": 71,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T05:26:35.826104+00:00",
+      "horizon": "D+0",
+      "hours_left": 6.6,
+      "ecmwf": 79,
+      "hrrr": 79,
+      "metar": 71,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T19:23:05.788006+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": null,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T19:25:35.897046+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": 77,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T19:27:57.012868+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": 77,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T19:30:17.002920+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": 77,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T19:32:41.125406+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": 77,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T19:35:00.668837+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": 77,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T19:37:17.644454+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": 77,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T19:39:34.992836+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": 77,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T19:41:51.030533+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": 77,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-08T19:44:20.628497+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": 77,
+      "best": 81,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-08T01:37:21.452881+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-08T01:40:07.330260+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-08T01:42:53.824533+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-08T01:45:38.014455+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-08T01:48:22.349670+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-06-08T01:51:16.856453+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-06-08T01:54:16.819606+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-06-08T01:57:12.266116+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-08T02:00:01.814064+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-06-08T05:23:24.090499+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.4
+    },
+    {
+      "ts": "2026-06-08T05:26:35.826104+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.4
+    },
+    {
+      "ts": "2026-06-08T19:23:05.788006+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.945
+    },
+    {
+      "ts": "2026-06-08T19:25:35.897046+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.945
+    },
+    {
+      "ts": "2026-06-08T19:27:57.012868+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.945
+    },
+    {
+      "ts": "2026-06-08T19:30:17.002920+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.945
+    },
+    {
+      "ts": "2026-06-08T19:32:41.125406+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.975
+    },
+    {
+      "ts": "2026-06-08T19:35:00.668837+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.975
+    },
+    {
+      "ts": "2026-06-08T19:37:17.644454+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.975
+    },
+    {
+      "ts": "2026-06-08T19:39:34.992836+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.975
+    },
+    {
+      "ts": "2026-06-08T19:41:51.030533+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.975
+    },
+    {
+      "ts": "2026-06-08T19:44:20.628497+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.975
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Atlanta be 67°F or below on June 8?",
+      "market_id": "2458914",
+      "range": [
+        -999.0,
+        67.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2571.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 68-69°F on June 8?",
+      "market_id": "2458915",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 758.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 70-71°F on June 8?",
+      "market_id": "2458916",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2307.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 72-73°F on June 8?",
+      "market_id": "2458917",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 8963.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 74-75°F on June 8?",
+      "market_id": "2458918",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 13935.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 76-77°F on June 8?",
+      "market_id": "2458919",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 7608.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 78-79°F on June 8?",
+      "market_id": "2458920",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 8281.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 80-81°F on June 8?",
+      "market_id": "2458921",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.975,
+      "ask": 0.025,
+      "price": 0.975,
+      "spread": -0.95,
+      "volume": 8716.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 82-83°F on June 8?",
+      "market_id": "2458922",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.0225,
+      "ask": 0.9775,
+      "price": 0.0225,
+      "spread": 0.955,
+      "volume": 7584.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 84-85°F on June 8?",
+      "market_id": "2458923",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 8268.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be 86°F or higher on June 8?",
+      "market_id": "2458924",
+      "range": [
+        86.0,
+        999.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 7626.0
+    }
+  ],
+  "created_at": "2026-06-08T01:37:35.201652+00:00"
+}

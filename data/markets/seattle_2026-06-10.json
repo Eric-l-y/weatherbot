@@ -1,0 +1,374 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-06-10",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-06-10T12:00:00Z",
+  "hours_at_discovery": 27.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-09T08:39:05.899853+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.3,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T08:42:00.802618+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.3,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T08:44:47.690202+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.2,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T08:52:59.353565+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.1,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T11:50:47.068521+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.2,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T11:53:45.185799+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.1,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T11:56:55.537903+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.0,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T11:59:59.112377+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.0,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:30:45.377834+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.5,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:34:00.447239+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.4,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:37:57.723534+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.4,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:41:20.783333+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.3,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:44:43.719746+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.3,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-06-09T12:48:25.126610+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.2,
+      "ecmwf": 65,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-09T08:39:05.899853+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-06-09T08:42:00.802618+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-06-09T08:44:47.690202+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-06-09T08:52:59.353565+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-06-09T11:50:47.068521+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-09T11:53:45.185799+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-09T11:56:55.537903+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-09T11:59:59.112377+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-09T12:30:45.377834+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-09T12:34:00.447239+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-09T12:37:57.723534+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-09T12:41:20.783333+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-09T12:44:43.719746+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-06-09T12:48:25.126610+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.385
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 55°F or below on June 10?",
+      "market_id": "2475272",
+      "range": [
+        -999.0,
+        55.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 155.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 56-57°F on June 10?",
+      "market_id": "2475273",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 155.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 58-59°F on June 10?",
+      "market_id": "2475274",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 182.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 60-61°F on June 10?",
+      "market_id": "2475275",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.0545,
+      "ask": 0.9455,
+      "price": 0.0545,
+      "spread": 0.891,
+      "volume": 142.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 62-63°F on June 10?",
+      "market_id": "2475276",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.215,
+      "ask": 0.785,
+      "price": 0.215,
+      "spread": 0.57,
+      "volume": 345.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 64-65°F on June 10?",
+      "market_id": "2475277",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.385,
+      "ask": 0.615,
+      "price": 0.385,
+      "spread": 0.23,
+      "volume": 263.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 66-67°F on June 10?",
+      "market_id": "2475278",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 284.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 68-69°F on June 10?",
+      "market_id": "2475279",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.065,
+      "ask": 0.935,
+      "price": 0.065,
+      "spread": 0.87,
+      "volume": 53.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 70-71°F on June 10?",
+      "market_id": "2475280",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0125,
+      "ask": 0.9875,
+      "price": 0.0125,
+      "spread": 0.975,
+      "volume": 256.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 72-73°F on June 10?",
+      "market_id": "2475281",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 63.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 74°F or higher on June 10?",
+      "market_id": "2475282",
+      "range": [
+        74.0,
+        999.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 153.0
+    }
+  ],
+  "created_at": "2026-06-09T08:39:20.654617+00:00"
+}
