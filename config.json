@@ -13,9 +13,9 @@
   "max_slippage": 0.03,
   "smtp_host": "smtp.gmail.com",
   "smtp_port": 587,
-  "smtp_user": "",
+  "smtp_user": "nicheal17us@gmail.com",
   "smtp_pass": "",
-  "notify_email": "",
+  "notify_email": "nicheal17us@gmail.com",
   "smtp_tls": true,
 
   "trading_mode": "paper",
