@@ -9,18 +9,31 @@
   "kelly_fraction": 0.25,
   "scan_interval": 3600,
   "calibration_min": 30,
-  "vc_key": "KGPSVGWKWJBVMF8MNRKCRMLA9",
   "max_slippage": 0.03,
   "smtp_host": "smtp.gmail.com",
   "smtp_port": 587,
-  "smtp_user": "nicheal17us@gmail.com",
-  "smtp_pass": "",
-  "notify_email": "nicheal17us@gmail.com",
   "smtp_tls": true,
 
   "trading_mode": "paper",
-  "poly_private_key": "",
-  "poly_funder": "",
   "poly_chain_id": 137,
-  "poly_signature_type": 0
+  "poly_signature_type": 0,
+
+  "arbitrage": {
+    "enabled": true,
+    "mode": "paper",
+    "capital": 200.0,
+    "max_position_pct": 0.05,
+    "min_profit_threshold": 0.03,
+    "max_slippage": 0.02,
+    "daily_loss_limit_pct": 0.02,
+    "max_drawdown_pct": 0.10,
+    "min_liquidity": 50,
+    "scan_interval": 30,
+    "max_events": 50,
+    "strategies": {
+      "complementary": true,
+      "multi_outcome": true,
+      "correlated": false
+    }
+  }
 }

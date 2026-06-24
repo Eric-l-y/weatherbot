@@ -320,11 +320,17 @@ class PolymarketTrader:
                 timeout=(5, 8),
             )
             data = r.json()
-            outcomes = data.get("outcomes", [])
-            clob_token_ids = data.get("clobTokenIds", "")
+            outcomes_raw = data.get("outcomes", [])
+            if isinstance(outcomes_raw, str) and outcomes_raw.startswith("["):
+                outcomes = json.loads(outcomes_raw)
+            else:
+                outcomes = outcomes_raw
 
-            # clobTokenIds 是以逗号分隔的 token_id 列表
-            token_ids = [t.strip() for t in clob_token_ids.split(",")] if clob_token_ids else []
+            clob_ids_raw = data.get("clobTokenIds", "")
+            if clob_ids_raw.startswith("["):
+                token_ids = json.loads(clob_ids_raw)
+            else:
+                token_ids = [t.strip() for t in clob_ids_raw.split(",")] if clob_ids_raw else []
 
             result = []
             for i, outcome in enumerate(outcomes):

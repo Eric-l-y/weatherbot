@@ -29,8 +29,8 @@ from email.mime.text import MIMEText
 # CONFIG
 # =============================================================================
 
-with open("config.json", encoding="utf-8") as f:
-    _cfg = json.load(f)
+from config_helper import load_config as _load_cfg
+_cfg = _load_cfg()
 
 BALANCE          = _cfg.get("balance", 10000.0)
 MAX_BET          = _cfg.get("max_bet", 20.0)        # max bet per trade
