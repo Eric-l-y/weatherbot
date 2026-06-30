@@ -1,0 +1,179 @@
+{
+  "city": "wellington",
+  "city_name": "Wellington",
+  "date": "2026-06-25",
+  "unit": "C",
+  "station": "NZWN",
+  "event_end_date": "2026-06-25T12:00:00Z",
+  "hours_at_discovery": 34.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:38:40.461354+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.4,
+      "ecmwf": 11.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 11.6,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:38:40.461354+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.515
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Wellington be 8°C or below on June 25?",
+      "market_id": "2647462",
+      "range": [
+        -999.0,
+        8.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 195.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 9°C on June 25?",
+      "market_id": "2647463",
+      "range": [
+        9.0,
+        9.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 543.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 10°C on June 25?",
+      "market_id": "2647464",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 1961.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 11°C on June 25?",
+      "market_id": "2647465",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.0545,
+      "ask": 0.9455,
+      "price": 0.0545,
+      "spread": 0.891,
+      "volume": 1587.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 12°C on June 25?",
+      "market_id": "2647466",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.28,
+      "ask": 0.72,
+      "price": 0.28,
+      "spread": 0.44,
+      "volume": 1470.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 13°C on June 25?",
+      "market_id": "2647467",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.515,
+      "ask": 0.485,
+      "price": 0.515,
+      "spread": -0.03,
+      "volume": 1414.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 14°C on June 25?",
+      "market_id": "2647468",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.175,
+      "ask": 0.825,
+      "price": 0.175,
+      "spread": 0.65,
+      "volume": 1445.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 15°C on June 25?",
+      "market_id": "2647469",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.0175,
+      "ask": 0.9825,
+      "price": 0.0175,
+      "spread": 0.965,
+      "volume": 755.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 16°C on June 25?",
+      "market_id": "2647470",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 361.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 17°C on June 25?",
+      "market_id": "2647471",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 391.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 18°C or higher on June 25?",
+      "market_id": "2647472",
+      "range": [
+        18.0,
+        999.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 185.0
+    }
+  ],
+  "created_at": "2026-06-24T01:38:48.788855+00:00"
+}

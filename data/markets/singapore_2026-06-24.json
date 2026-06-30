@@ -1,0 +1,179 @@
+{
+  "city": "singapore",
+  "city_name": "Singapore",
+  "date": "2026-06-24",
+  "unit": "C",
+  "station": "WSSS",
+  "event_end_date": "2026-06-24T12:00:00Z",
+  "hours_at_discovery": 10.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:37:35.689169+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.4,
+      "ecmwf": 29.3,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 29.3,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:37:35.689169+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.45
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Singapore be 25°C or below on June 24?",
+      "market_id": "2636703",
+      "range": [
+        -999.0,
+        25.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 127.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 26°C on June 24?",
+      "market_id": "2636704",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 197.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 27°C on June 24?",
+      "market_id": "2636705",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 499.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 28°C on June 24?",
+      "market_id": "2636706",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 25165.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 29°C on June 24?",
+      "market_id": "2636707",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.105,
+      "ask": 0.895,
+      "price": 0.105,
+      "spread": 0.79,
+      "volume": 6350.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 30°C on June 24?",
+      "market_id": "2636708",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.215,
+      "ask": 0.785,
+      "price": 0.215,
+      "spread": 0.57,
+      "volume": 4617.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 31°C on June 24?",
+      "market_id": "2636709",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.45,
+      "ask": 0.55,
+      "price": 0.45,
+      "spread": 0.1,
+      "volume": 5509.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 32°C on June 24?",
+      "market_id": "2636710",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.15,
+      "ask": 0.85,
+      "price": 0.15,
+      "spread": 0.7,
+      "volume": 6172.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 33°C on June 24?",
+      "market_id": "2636711",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.027,
+      "ask": 0.973,
+      "price": 0.027,
+      "spread": 0.946,
+      "volume": 6250.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 34°C on June 24?",
+      "market_id": "2636712",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 3873.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 35°C or higher on June 24?",
+      "market_id": "2636713",
+      "range": [
+        35.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1026.0
+    }
+  ],
+  "created_at": "2026-06-24T01:37:41.301621+00:00"
+}

@@ -1,0 +1,179 @@
+{
+  "city": "lucknow",
+  "city_name": "Lucknow",
+  "date": "2026-06-24",
+  "unit": "C",
+  "station": "VILK",
+  "event_end_date": "2026-06-24T12:00:00Z",
+  "hours_at_discovery": 10.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:37:44.572704+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.4,
+      "ecmwf": 39.5,
+      "hrrr": null,
+      "metar": 29.0,
+      "best": 39.5,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:37:44.572704+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.465
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Lucknow be 36°C or below on June 24?",
+      "market_id": "2637285",
+      "range": [
+        -999.0,
+        36.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1018.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 37°C on June 24?",
+      "market_id": "2637286",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 1004.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 38°C on June 24?",
+      "market_id": "2637287",
+      "range": [
+        38.0,
+        38.0
+      ],
+      "bid": 0.0255,
+      "ask": 0.9745,
+      "price": 0.0255,
+      "spread": 0.949,
+      "volume": 1496.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 39°C on June 24?",
+      "market_id": "2637288",
+      "range": [
+        39.0,
+        39.0
+      ],
+      "bid": 0.135,
+      "ask": 0.865,
+      "price": 0.135,
+      "spread": 0.73,
+      "volume": 2847.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 40°C on June 24?",
+      "market_id": "2637289",
+      "range": [
+        40.0,
+        40.0
+      ],
+      "bid": 0.465,
+      "ask": 0.535,
+      "price": 0.465,
+      "spread": 0.07,
+      "volume": 2907.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 41°C on June 24?",
+      "market_id": "2637290",
+      "range": [
+        41.0,
+        41.0
+      ],
+      "bid": 0.335,
+      "ask": 0.665,
+      "price": 0.335,
+      "spread": 0.33,
+      "volume": 10001.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 42°C on June 24?",
+      "market_id": "2637291",
+      "range": [
+        42.0,
+        42.0
+      ],
+      "bid": 0.0435,
+      "ask": 0.9565,
+      "price": 0.0435,
+      "spread": 0.913,
+      "volume": 2204.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 43°C on June 24?",
+      "market_id": "2637292",
+      "range": [
+        43.0,
+        43.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 1281.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 44°C on June 24?",
+      "market_id": "2637293",
+      "range": [
+        44.0,
+        44.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 199.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 45°C on June 24?",
+      "market_id": "2637294",
+      "range": [
+        45.0,
+        45.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 558.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 46°C or higher on June 24?",
+      "market_id": "2637295",
+      "range": [
+        46.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 358.0
+    }
+  ],
+  "created_at": "2026-06-24T01:37:50.605599+00:00"
+}

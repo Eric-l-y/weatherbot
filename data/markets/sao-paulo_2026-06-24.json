@@ -1,0 +1,179 @@
+{
+  "city": "sao-paulo",
+  "city_name": "Sao Paulo",
+  "date": "2026-06-24",
+  "unit": "C",
+  "station": "SBGR",
+  "event_end_date": "2026-06-24T12:00:00Z",
+  "hours_at_discovery": 10.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:38:12.883006+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.4,
+      "ecmwf": 14.0,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 14.0,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:38:12.883006+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.385
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Sao Paulo be 10°C or below on June 24?",
+      "market_id": "2646580",
+      "range": [
+        -999.0,
+        10.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 180.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 11°C on June 24?",
+      "market_id": "2646581",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 952.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 12°C on June 24?",
+      "market_id": "2646582",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 1024.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 13°C on June 24?",
+      "market_id": "2646583",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.2695,
+      "ask": 0.7305,
+      "price": 0.2695,
+      "spread": 0.461,
+      "volume": 1923.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 14°C on June 24?",
+      "market_id": "2646584",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.385,
+      "ask": 0.615,
+      "price": 0.385,
+      "spread": 0.23,
+      "volume": 2276.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 15°C on June 24?",
+      "market_id": "2646585",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.24,
+      "ask": 0.76,
+      "price": 0.24,
+      "spread": 0.52,
+      "volume": 2400.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 16°C on June 24?",
+      "market_id": "2646586",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.125,
+      "ask": 0.875,
+      "price": 0.125,
+      "spread": 0.75,
+      "volume": 1543.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 17°C on June 24?",
+      "market_id": "2646587",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.018,
+      "ask": 0.982,
+      "price": 0.018,
+      "spread": 0.964,
+      "volume": 1620.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 18°C on June 24?",
+      "market_id": "2646588",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 1462.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 19°C on June 24?",
+      "market_id": "2646589",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 630.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 20°C or higher on June 24?",
+      "market_id": "2646590",
+      "range": [
+        20.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 351.0
+    }
+  ],
+  "created_at": "2026-06-24T01:38:23.492321+00:00"
+}

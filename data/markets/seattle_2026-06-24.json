@@ -1,0 +1,179 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-06-24",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-06-24T12:00:00Z",
+  "hours_at_discovery": 10.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:45.824138+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.4,
+      "ecmwf": 87,
+      "hrrr": 85,
+      "metar": 89,
+      "best": 85,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:45.824138+00:00",
+      "top_bucket": "86.0-87.0F",
+      "top_price": 0.365
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 77°F or below on June 24?",
+      "market_id": "2646613",
+      "range": [
+        -999.0,
+        77.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 542.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 78-79°F on June 24?",
+      "market_id": "2646614",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 888.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 80-81°F on June 24?",
+      "market_id": "2646615",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.012,
+      "ask": 0.988,
+      "price": 0.012,
+      "spread": 0.976,
+      "volume": 1022.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 82-83°F on June 24?",
+      "market_id": "2646616",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.055,
+      "ask": 0.945,
+      "price": 0.055,
+      "spread": 0.89,
+      "volume": 446.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 84-85°F on June 24?",
+      "market_id": "2646617",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.325,
+      "ask": 0.675,
+      "price": 0.325,
+      "spread": 0.35,
+      "volume": 753.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 86-87°F on June 24?",
+      "market_id": "2646618",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.365,
+      "ask": 0.635,
+      "price": 0.365,
+      "spread": 0.27,
+      "volume": 696.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 88-89°F on June 24?",
+      "market_id": "2646619",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.235,
+      "ask": 0.765,
+      "price": 0.235,
+      "spread": 0.53,
+      "volume": 804.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 90-91°F on June 24?",
+      "market_id": "2646620",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.031,
+      "ask": 0.969,
+      "price": 0.031,
+      "spread": 0.938,
+      "volume": 821.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 92-93°F on June 24?",
+      "market_id": "2646621",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 200.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 94-95°F on June 24?",
+      "market_id": "2646622",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 204.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 96°F or higher on June 24?",
+      "market_id": "2646623",
+      "range": [
+        96.0,
+        999.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 230.0
+    }
+  ],
+  "created_at": "2026-06-24T01:35:52.825698+00:00"
+}

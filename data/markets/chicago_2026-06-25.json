@@ -1,0 +1,179 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-06-25",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-06-25T12:00:00Z",
+  "hours_at_discovery": 34.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:08.620092+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.4,
+      "ecmwf": 79,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:08.620092+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.275
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 71°F or below on June 25?",
+      "market_id": "2661848",
+      "range": [
+        -999.0,
+        71.0
+      ],
+      "bid": 0.077,
+      "ask": 0.923,
+      "price": 0.077,
+      "spread": 0.846,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 72-73°F on June 25?",
+      "market_id": "2661849",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.1415,
+      "ask": 0.8585,
+      "price": 0.1415,
+      "spread": 0.717,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 74-75°F on June 25?",
+      "market_id": "2661850",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.2,
+      "ask": 0.8,
+      "price": 0.2,
+      "spread": 0.6,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 76-77°F on June 25?",
+      "market_id": "2661851",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.215,
+      "ask": 0.785,
+      "price": 0.215,
+      "spread": 0.57,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 78-79°F on June 25?",
+      "market_id": "2661852",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 55.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 80-81°F on June 25?",
+      "market_id": "2661853",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.205,
+      "ask": 0.795,
+      "price": 0.205,
+      "spread": 0.59,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 82-83°F on June 25?",
+      "market_id": "2661854",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.195,
+      "ask": 0.805,
+      "price": 0.195,
+      "spread": 0.61,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 84-85°F on June 25?",
+      "market_id": "2661855",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.1105,
+      "ask": 0.8895,
+      "price": 0.1105,
+      "spread": 0.779,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 86-87°F on June 25?",
+      "market_id": "2661856",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.04,
+      "ask": 0.96,
+      "price": 0.04,
+      "spread": 0.92,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 88-89°F on June 25?",
+      "market_id": "2661857",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.02,
+      "ask": 0.98,
+      "price": 0.02,
+      "spread": 0.96,
+      "volume": 7.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 90°F or higher on June 25?",
+      "market_id": "2661858",
+      "range": [
+        90.0,
+        999.0
+      ],
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 8.0
+    }
+  ],
+  "created_at": "2026-06-24T01:35:18.840225+00:00"
+}

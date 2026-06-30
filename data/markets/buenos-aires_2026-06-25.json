@@ -1,0 +1,179 @@
+{
+  "city": "buenos-aires",
+  "city_name": "Buenos Aires",
+  "date": "2026-06-25",
+  "unit": "C",
+  "station": "SAEZ",
+  "event_end_date": "2026-06-25T12:00:00Z",
+  "hours_at_discovery": 34.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:38:28.931355+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.4,
+      "ecmwf": 12.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.2,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:38:28.931355+00:00",
+      "top_bucket": "12.0-12.0C",
+      "top_price": 0.325
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Buenos Aires be 7°C or below on June 25?",
+      "market_id": "2661771",
+      "range": [
+        -999.0,
+        7.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 8°C on June 25?",
+      "market_id": "2661772",
+      "range": [
+        8.0,
+        8.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 9°C on June 25?",
+      "market_id": "2661773",
+      "range": [
+        9.0,
+        9.0
+      ],
+      "bid": 0.0145,
+      "ask": 0.9855,
+      "price": 0.0145,
+      "spread": 0.971,
+      "volume": 4.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 10°C on June 25?",
+      "market_id": "2661774",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.0405,
+      "ask": 0.9595,
+      "price": 0.0405,
+      "spread": 0.919,
+      "volume": 27.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 11°C on June 25?",
+      "market_id": "2661775",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.05,
+      "ask": 0.95,
+      "price": 0.05,
+      "spread": 0.9,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 12°C on June 25?",
+      "market_id": "2661776",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.325,
+      "ask": 0.675,
+      "price": 0.325,
+      "spread": 0.35,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 13°C on June 25?",
+      "market_id": "2661777",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 11.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 14°C on June 25?",
+      "market_id": "2661778",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.195,
+      "ask": 0.805,
+      "price": 0.195,
+      "spread": 0.61,
+      "volume": 8.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 15°C on June 25?",
+      "market_id": "2661779",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.085,
+      "ask": 0.915,
+      "price": 0.085,
+      "spread": 0.83,
+      "volume": 7.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 16°C on June 25?",
+      "market_id": "2661780",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0585,
+      "ask": 0.9415,
+      "price": 0.0585,
+      "spread": 0.883,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 17°C or higher on June 25?",
+      "market_id": "2661781",
+      "range": [
+        17.0,
+        999.0
+      ],
+      "bid": 0.0125,
+      "ask": 0.9875,
+      "price": 0.0125,
+      "spread": 0.975,
+      "volume": 70.0
+    }
+  ],
+  "created_at": "2026-06-24T01:38:37.890298+00:00"
+}

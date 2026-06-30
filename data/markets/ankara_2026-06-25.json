@@ -1,0 +1,179 @@
+{
+  "city": "ankara",
+  "city_name": "Ankara",
+  "date": "2026-06-25",
+  "unit": "C",
+  "station": "LTAC",
+  "event_end_date": "2026-06-25T12:00:00Z",
+  "hours_at_discovery": 34.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:36:47.074452+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.4,
+      "ecmwf": 27.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.1,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:36:47.074452+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.415
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Ankara be 25°C or below on June 25?",
+      "market_id": "2648821",
+      "range": [
+        -999.0,
+        25.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 738.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 26°C on June 25?",
+      "market_id": "2648822",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 558.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 27°C on June 25?",
+      "market_id": "2648823",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.0435,
+      "ask": 0.9565,
+      "price": 0.0435,
+      "spread": 0.913,
+      "volume": 1109.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 28°C on June 25?",
+      "market_id": "2648824",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.235,
+      "ask": 0.765,
+      "price": 0.235,
+      "spread": 0.53,
+      "volume": 1429.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 29°C on June 25?",
+      "market_id": "2648825",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.415,
+      "ask": 0.585,
+      "price": 0.415,
+      "spread": 0.17,
+      "volume": 566.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 30°C on June 25?",
+      "market_id": "2648826",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.325,
+      "ask": 0.675,
+      "price": 0.325,
+      "spread": 0.35,
+      "volume": 826.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 31°C on June 25?",
+      "market_id": "2648827",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.0225,
+      "ask": 0.9775,
+      "price": 0.0225,
+      "spread": 0.955,
+      "volume": 725.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 32°C on June 25?",
+      "market_id": "2648828",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 407.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 33°C on June 25?",
+      "market_id": "2648829",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 180.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 34°C on June 25?",
+      "market_id": "2648830",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 346.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 35°C or higher on June 25?",
+      "market_id": "2648831",
+      "range": [
+        35.0,
+        999.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 130.0
+    }
+  ],
+  "created_at": "2026-06-24T01:36:54.554020+00:00"
+}

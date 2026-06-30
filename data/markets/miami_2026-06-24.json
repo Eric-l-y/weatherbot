@@ -1,0 +1,179 @@
+{
+  "city": "miami",
+  "city_name": "Miami",
+  "date": "2026-06-24",
+  "unit": "F",
+  "station": "KMIA",
+  "event_end_date": "2026-06-24T12:00:00Z",
+  "hours_at_discovery": 10.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:19.955989+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.4,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": 83,
+      "best": 91,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:19.955989+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.545
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Miami be 83°F or below on June 24?",
+      "market_id": "2646657",
+      "range": [
+        -999.0,
+        83.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 1163.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 84-85°F on June 24?",
+      "market_id": "2646658",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 2078.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 86-87°F on June 24?",
+      "market_id": "2646659",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 2577.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 88-89°F on June 24?",
+      "market_id": "2646660",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.025,
+      "ask": 0.975,
+      "price": 0.025,
+      "spread": 0.95,
+      "volume": 3274.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 90-91°F on June 24?",
+      "market_id": "2646661",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 15980.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 92-93°F on June 24?",
+      "market_id": "2646662",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.545,
+      "ask": 0.455,
+      "price": 0.545,
+      "spread": -0.09,
+      "volume": 5608.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 94-95°F on June 24?",
+      "market_id": "2646663",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "bid": 0.129,
+      "ask": 0.871,
+      "price": 0.129,
+      "spread": 0.742,
+      "volume": 3792.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 96-97°F on June 24?",
+      "market_id": "2646664",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 2097.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 98-99°F on June 24?",
+      "market_id": "2646665",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1398.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 100-101°F on June 24?",
+      "market_id": "2646666",
+      "range": [
+        100.0,
+        101.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 195.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be 102°F or higher on June 24?",
+      "market_id": "2646667",
+      "range": [
+        102.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 288.0
+    }
+  ],
+  "created_at": "2026-06-24T01:35:28.197471+00:00"
+}

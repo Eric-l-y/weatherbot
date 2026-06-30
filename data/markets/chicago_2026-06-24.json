@@ -1,0 +1,179 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-06-24",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-06-24T12:00:00Z",
+  "hours_at_discovery": 10.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:08.620092+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.4,
+      "ecmwf": 76,
+      "hrrr": 75,
+      "metar": 68,
+      "best": 75,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:08.620092+00:00",
+      "top_bucket": "76.0-77.0F",
+      "top_price": 0.385
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 69°F or below on June 24?",
+      "market_id": "2646668",
+      "range": [
+        -999.0,
+        69.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1859.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 70-71°F on June 24?",
+      "market_id": "2646669",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 2027.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 72-73°F on June 24?",
+      "market_id": "2646670",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.045,
+      "ask": 0.955,
+      "price": 0.045,
+      "spread": 0.91,
+      "volume": 1502.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 74-75°F on June 24?",
+      "market_id": "2646671",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.215,
+      "ask": 0.785,
+      "price": 0.215,
+      "spread": 0.57,
+      "volume": 2197.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 76-77°F on June 24?",
+      "market_id": "2646672",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.385,
+      "ask": 0.615,
+      "price": 0.385,
+      "spread": 0.23,
+      "volume": 1438.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 78-79°F on June 24?",
+      "market_id": "2646673",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.29,
+      "ask": 0.71,
+      "price": 0.29,
+      "spread": 0.42,
+      "volume": 1245.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 80-81°F on June 24?",
+      "market_id": "2646674",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 1331.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 82-83°F on June 24?",
+      "market_id": "2646675",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 533.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 84-85°F on June 24?",
+      "market_id": "2646676",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 582.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 86-87°F on June 24?",
+      "market_id": "2646677",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 416.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 88°F or higher on June 24?",
+      "market_id": "2646678",
+      "range": [
+        88.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 235.0
+    }
+  ],
+  "created_at": "2026-06-24T01:35:16.405927+00:00"
+}

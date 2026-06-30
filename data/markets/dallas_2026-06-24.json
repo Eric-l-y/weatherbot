@@ -1,0 +1,179 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-06-24",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-06-24T12:00:00Z",
+  "hours_at_discovery": 10.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:33.160346+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.4,
+      "ecmwf": 95,
+      "hrrr": 94,
+      "metar": 90,
+      "best": 94,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:33.160346+00:00",
+      "top_bucket": "94.0-95.0F",
+      "top_price": 0.325
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Dallas be 87°F or below on June 24?",
+      "market_id": "2646635",
+      "range": [
+        -999.0,
+        87.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 343.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 88-89°F on June 24?",
+      "market_id": "2646636",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 307.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 90-91°F on June 24?",
+      "market_id": "2646637",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.1585,
+      "ask": 0.8415,
+      "price": 0.1585,
+      "spread": 0.683,
+      "volume": 1306.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 92-93°F on June 24?",
+      "market_id": "2646638",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.315,
+      "ask": 0.685,
+      "price": 0.315,
+      "spread": 0.37,
+      "volume": 1114.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 94-95°F on June 24?",
+      "market_id": "2646639",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "bid": 0.325,
+      "ask": 0.675,
+      "price": 0.325,
+      "spread": 0.35,
+      "volume": 1627.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 96-97°F on June 24?",
+      "market_id": "2646640",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "bid": 0.175,
+      "ask": 0.825,
+      "price": 0.175,
+      "spread": 0.65,
+      "volume": 1286.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 98-99°F on June 24?",
+      "market_id": "2646641",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "bid": 0.0665,
+      "ask": 0.9335,
+      "price": 0.0665,
+      "spread": 0.867,
+      "volume": 819.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 100-101°F on June 24?",
+      "market_id": "2646642",
+      "range": [
+        100.0,
+        101.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 382.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 102-103°F on June 24?",
+      "market_id": "2646643",
+      "range": [
+        102.0,
+        103.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 317.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 104-105°F on June 24?",
+      "market_id": "2646644",
+      "range": [
+        104.0,
+        105.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 327.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be 106°F or higher on June 24?",
+      "market_id": "2646645",
+      "range": [
+        106.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 320.0
+    }
+  ],
+  "created_at": "2026-06-24T01:35:42.823489+00:00"
+}

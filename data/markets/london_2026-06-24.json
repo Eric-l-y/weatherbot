@@ -1,0 +1,179 @@
+{
+  "city": "london",
+  "city_name": "London",
+  "date": "2026-06-24",
+  "unit": "C",
+  "station": "EGLC",
+  "event_end_date": "2026-06-24T12:00:00Z",
+  "hours_at_discovery": 10.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:36:08.957547+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.4,
+      "ecmwf": 33.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 33.7,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:36:08.957547+00:00",
+      "top_bucket": "-999.0-35.0C",
+      "top_price": 0.835
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in London be 35°C or below on June 24?",
+      "market_id": "2636593",
+      "range": [
+        -999.0,
+        35.0
+      ],
+      "bid": 0.835,
+      "ask": 0.165,
+      "price": 0.835,
+      "spread": -0.67,
+      "volume": 31495.0
+    },
+    {
+      "question": "Will the highest temperature in London be 36°C on June 24?",
+      "market_id": "2636594",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "bid": 0.135,
+      "ask": 0.865,
+      "price": 0.135,
+      "spread": 0.73,
+      "volume": 27265.0
+    },
+    {
+      "question": "Will the highest temperature in London be 37°C on June 24?",
+      "market_id": "2636595",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "bid": 0.04,
+      "ask": 0.96,
+      "price": 0.04,
+      "spread": 0.92,
+      "volume": 21727.0
+    },
+    {
+      "question": "Will the highest temperature in London be 38°C on June 24?",
+      "market_id": "2636596",
+      "range": [
+        38.0,
+        38.0
+      ],
+      "bid": 0.0155,
+      "ask": 0.9845,
+      "price": 0.0155,
+      "spread": 0.969,
+      "volume": 18608.0
+    },
+    {
+      "question": "Will the highest temperature in London be 39°C on June 24?",
+      "market_id": "2636597",
+      "range": [
+        39.0,
+        39.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 15508.0
+    },
+    {
+      "question": "Will the highest temperature in London be 40°C on June 24?",
+      "market_id": "2636598",
+      "range": [
+        40.0,
+        40.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 17679.0
+    },
+    {
+      "question": "Will the highest temperature in London be 41°C on June 24?",
+      "market_id": "2636599",
+      "range": [
+        41.0,
+        41.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 14586.0
+    },
+    {
+      "question": "Will the highest temperature in London be 42°C on June 24?",
+      "market_id": "2636600",
+      "range": [
+        42.0,
+        42.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 4811.0
+    },
+    {
+      "question": "Will the highest temperature in London be 43°C on June 24?",
+      "market_id": "2636601",
+      "range": [
+        43.0,
+        43.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 935.0
+    },
+    {
+      "question": "Will the highest temperature in London be 44°C on June 24?",
+      "market_id": "2636602",
+      "range": [
+        44.0,
+        44.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 684.0
+    },
+    {
+      "question": "Will the highest temperature in London be 45°C or higher on June 24?",
+      "market_id": "2636603",
+      "range": [
+        45.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 651.0
+    }
+  ],
+  "created_at": "2026-06-24T01:36:22.017914+00:00"
+}

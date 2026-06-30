@@ -40,7 +40,10 @@ log = logging.getLogger("trader")
 # ======================================================================
 try:
     from py_clob_client.client import ClobClient
-    from py_clob_client.clob_types import OrderArgs, MarketOrderArgs, OrderType, OpenOrderParams
+    from py_clob_client.clob_types import (
+        OrderArgs, MarketOrderArgs, OrderType, OpenOrderParams,
+        BalanceAllowanceParams, AssetType,
+    )
     from py_clob_client.order_builder.constants import BUY, SELL
     HAS_CLOB = True
 except ImportError:
@@ -121,7 +124,12 @@ class PolymarketTrader:
     # ------------------------------------------------------------------
 
     def get_balance(self) -> float:
-        """查询 USDC 余额"""
+        """查询 CLOB 保证金余额（链上授权状态）
+
+        注意：此方法返回的是链上 USDC 授权余额，不是 Polymarket 账户余额。
+        如果你通过 Polymarket 网页充值了 USDC，余额可能显示为 0，
+        但这不影响下单——CLOB 交易所会使用你在 Polymarket 的内部余额。
+        """
         if self.paper:
             return 0.0
 
@@ -129,15 +137,13 @@ class PolymarketTrader:
             return 0.0
 
         try:
-            balances = self._client.get_balances()
-            for b in balances.get("balances", []):
-                token_id = b.get("token_id", "")
-                # USDC on Polygon
-                if token_id.lower() == "0x2791bca1f2de4661ed88a30c99a7a9449aa84174":
-                    return float(b.get("available", 0))
-                if token_id.lower() == "0x0000000000000000000000000000000000000000":
-                    return float(b.get("available", 0))
-            return 0.0
+            resp = self._client.get_balance_allowance(
+                BalanceAllowanceParams(
+                    asset_type=AssetType.COLLATERAL,
+                    signature_type=self.signature_type,
+                )
+            )
+            return float(resp.get("balance", 0))
         except Exception as e:
             log.error("查询余额失败: %s", e)
             return 0.0

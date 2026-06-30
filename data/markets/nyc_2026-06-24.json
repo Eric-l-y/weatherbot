@@ -1,0 +1,179 @@
+{
+  "city": "nyc",
+  "city_name": "New York City",
+  "date": "2026-06-24",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-06-24T12:00:00Z",
+  "hours_at_discovery": 10.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:34:56.295725+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.4,
+      "ecmwf": 80,
+      "hrrr": 84,
+      "metar": 68,
+      "best": 84,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:34:56.295725+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.49
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in New York City be 73°F or below on June 24?",
+      "market_id": "2646624",
+      "range": [
+        -999.0,
+        73.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 782.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 74-75°F on June 24?",
+      "market_id": "2646625",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 793.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 76-77°F on June 24?",
+      "market_id": "2646626",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.0195,
+      "ask": 0.9805,
+      "price": 0.0195,
+      "spread": 0.961,
+      "volume": 3692.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 78-79°F on June 24?",
+      "market_id": "2646627",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.0455,
+      "ask": 0.9545,
+      "price": 0.0455,
+      "spread": 0.909,
+      "volume": 2003.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 80-81°F on June 24?",
+      "market_id": "2646628",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.31,
+      "ask": 0.69,
+      "price": 0.31,
+      "spread": 0.38,
+      "volume": 3834.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 82-83°F on June 24?",
+      "market_id": "2646629",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.49,
+      "ask": 0.51,
+      "price": 0.49,
+      "spread": 0.02,
+      "volume": 2361.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 84-85°F on June 24?",
+      "market_id": "2646630",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.14,
+      "ask": 0.86,
+      "price": 0.14,
+      "spread": 0.72,
+      "volume": 2083.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 86-87°F on June 24?",
+      "market_id": "2646631",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.035,
+      "ask": 0.965,
+      "price": 0.035,
+      "spread": 0.93,
+      "volume": 1724.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 88-89°F on June 24?",
+      "market_id": "2646632",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 1483.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 90-91°F on June 24?",
+      "market_id": "2646633",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 808.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be 92°F or higher on June 24?",
+      "market_id": "2646634",
+      "range": [
+        92.0,
+        999.0
+      ],
+      "bid": 0.015,
+      "ask": 0.985,
+      "price": 0.015,
+      "spread": 0.97,
+      "volume": 4699.0
+    }
+  ],
+  "created_at": "2026-06-24T01:35:04.387637+00:00"
+}

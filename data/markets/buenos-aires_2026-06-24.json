@@ -1,0 +1,179 @@
+{
+  "city": "buenos-aires",
+  "city_name": "Buenos Aires",
+  "date": "2026-06-24",
+  "unit": "C",
+  "station": "SAEZ",
+  "event_end_date": "2026-06-24T12:00:00Z",
+  "hours_at_discovery": 10.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:38:28.931355+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.4,
+      "ecmwf": 11.0,
+      "hrrr": null,
+      "metar": 7.0,
+      "best": 11.0,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:38:28.931355+00:00",
+      "top_bucket": "12.0-12.0C",
+      "top_price": 0.615
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Buenos Aires be 6°C or below on June 24?",
+      "market_id": "2646591",
+      "range": [
+        -999.0,
+        6.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 175.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 7°C on June 24?",
+      "market_id": "2646592",
+      "range": [
+        7.0,
+        7.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 932.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 8°C on June 24?",
+      "market_id": "2646593",
+      "range": [
+        8.0,
+        8.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 2122.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 9°C on June 24?",
+      "market_id": "2646594",
+      "range": [
+        9.0,
+        9.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 1148.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 10°C on June 24?",
+      "market_id": "2646595",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.0405,
+      "ask": 0.9595,
+      "price": 0.0405,
+      "spread": 0.919,
+      "volume": 1325.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 11°C on June 24?",
+      "market_id": "2646596",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 1504.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 12°C on June 24?",
+      "market_id": "2646597",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.615,
+      "ask": 0.385,
+      "price": 0.615,
+      "spread": -0.23,
+      "volume": 4775.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 13°C on June 24?",
+      "market_id": "2646598",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.07,
+      "ask": 0.93,
+      "price": 0.07,
+      "spread": 0.86,
+      "volume": 1177.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 14°C on June 24?",
+      "market_id": "2646599",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 1200.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 15°C on June 24?",
+      "market_id": "2646600",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1177.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 16°C or higher on June 24?",
+      "market_id": "2646601",
+      "range": [
+        16.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 247.0
+    }
+  ],
+  "created_at": "2026-06-24T01:38:35.057319+00:00"
+}

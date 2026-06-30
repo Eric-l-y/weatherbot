@@ -1,0 +1,179 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-06-25",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-06-25T12:00:00Z",
+  "hours_at_discovery": 34.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:45.824138+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.4,
+      "ecmwf": 67,
+      "hrrr": 73,
+      "metar": null,
+      "best": 73,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:35:45.824138+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.24
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 59°F or below on June 25?",
+      "market_id": "2661793",
+      "range": [
+        -999.0,
+        59.0
+      ],
+      "bid": 0.011,
+      "ask": 0.989,
+      "price": 0.011,
+      "spread": 0.978,
+      "volume": 10.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 60-61°F on June 25?",
+      "market_id": "2661794",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.0355,
+      "ask": 0.9645,
+      "price": 0.0355,
+      "spread": 0.929,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 62-63°F on June 25?",
+      "market_id": "2661795",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.04,
+      "ask": 0.96,
+      "price": 0.04,
+      "spread": 0.92,
+      "volume": 61.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 64-65°F on June 25?",
+      "market_id": "2661796",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 66-67°F on June 25?",
+      "market_id": "2661797",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.15,
+      "ask": 0.85,
+      "price": 0.15,
+      "spread": 0.7,
+      "volume": 12.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 68-69°F on June 25?",
+      "market_id": "2661798",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.185,
+      "ask": 0.815,
+      "price": 0.185,
+      "spread": 0.63,
+      "volume": 10.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 70-71°F on June 25?",
+      "market_id": "2661799",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.24,
+      "ask": 0.76,
+      "price": 0.24,
+      "spread": 0.52,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 72-73°F on June 25?",
+      "market_id": "2661800",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.064,
+      "ask": 0.936,
+      "price": 0.064,
+      "spread": 0.872,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 74-75°F on June 25?",
+      "market_id": "2661801",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.044,
+      "ask": 0.956,
+      "price": 0.044,
+      "spread": 0.912,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 76-77°F on June 25?",
+      "market_id": "2661802",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.04,
+      "ask": 0.96,
+      "price": 0.04,
+      "spread": 0.92,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 78°F or higher on June 25?",
+      "market_id": "2661803",
+      "range": [
+        78.0,
+        999.0
+      ],
+      "bid": 0.03,
+      "ask": 0.97,
+      "price": 0.03,
+      "spread": 0.94,
+      "volume": 656.0
+    }
+  ],
+  "created_at": "2026-06-24T01:35:54.780060+00:00"
+}

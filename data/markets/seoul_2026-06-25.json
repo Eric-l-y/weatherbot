@@ -1,0 +1,179 @@
+{
+  "city": "seoul",
+  "city_name": "Seoul",
+  "date": "2026-06-25",
+  "unit": "C",
+  "station": "RKSI",
+  "event_end_date": "2026-06-25T12:00:00Z",
+  "hours_at_discovery": 34.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-06-24T01:36:55.635405+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.4,
+      "ecmwf": 23.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 23.6,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-06-24T01:36:55.635405+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.345
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seoul be 19°C or below on June 25?",
+      "market_id": "2647451",
+      "range": [
+        -999.0,
+        19.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1439.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 20°C on June 25?",
+      "market_id": "2647452",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 1081.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 21°C on June 25?",
+      "market_id": "2647453",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1102.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 22°C on June 25?",
+      "market_id": "2647454",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 1154.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 23°C on June 25?",
+      "market_id": "2647455",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 1536.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 24°C on June 25?",
+      "market_id": "2647456",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.065,
+      "ask": 0.935,
+      "price": 0.065,
+      "spread": 0.87,
+      "volume": 1984.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 25°C on June 25?",
+      "market_id": "2647457",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.195,
+      "ask": 0.805,
+      "price": 0.195,
+      "spread": 0.61,
+      "volume": 1814.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 26°C on June 25?",
+      "market_id": "2647458",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.345,
+      "ask": 0.655,
+      "price": 0.345,
+      "spread": 0.31,
+      "volume": 6036.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 27°C on June 25?",
+      "market_id": "2647459",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.28,
+      "ask": 0.72,
+      "price": 0.28,
+      "spread": 0.44,
+      "volume": 3184.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 28°C on June 25?",
+      "market_id": "2647460",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.115,
+      "ask": 0.885,
+      "price": 0.115,
+      "spread": 0.77,
+      "volume": 2657.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 29°C or higher on June 25?",
+      "market_id": "2647461",
+      "range": [
+        29.0,
+        999.0
+      ],
+      "bid": 0.0225,
+      "ask": 0.9775,
+      "price": 0.0225,
+      "spread": 0.955,
+      "volume": 3115.0
+    }
+  ],
+  "created_at": "2026-06-24T01:37:03.972567+00:00"
+}
